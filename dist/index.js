@@ -108,12 +108,17 @@ class DynaCurrencies {
     get count() {
         return Object.keys(this._rates || {}).length;
     }
-    convert(value, fromCurrency, toCurrency) {
+    convert(value, fromCurrency, toCurrency, round = false) {
         const fromRate = this._rates[fromCurrency.toLowerCase()];
         const toRate = this._rates[toCurrency.toLowerCase()];
         if (!fromRate || !toRate)
             return null;
-        return value * fromRate / toRate;
+        let output = value * fromRate / toRate;
+        if (round) {
+            const factor = Math.pow(10, currencies[toCurrency].decimalDigits);
+            output = Math.round(output * factor) / factor;
+        }
+        return output;
     }
     convertToLabel(value, fromCurrency, toCurrency) {
         const currency = currencies[toCurrency.toUpperCase()] || {};
@@ -135,7 +140,10 @@ class DynaCurrencies {
         };
     }
     getCurrencies() {
-        return Object.keys(currencies).reduce((acc, code) => { acc.push(currencies[code]); return acc; }, []);
+        return Object.keys(currencies).reduce((acc, code) => {
+            acc.push(currencies[code]);
+            return acc;
+        }, []);
     }
 }
 exports.DynaCurrencies = DynaCurrencies;

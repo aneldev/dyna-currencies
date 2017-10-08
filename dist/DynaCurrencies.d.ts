@@ -30,7 +30,7 @@ export declare class DynaCurrencies {
     update(rates: ICurrencyRates): void;
     clear(): void;
     readonly count: number;
-    convert(value: number, fromCurrency: string, toCurrency: string): number;
+    convert(value: number, fromCurrency: string, toCurrency: string, round?: boolean): number;
     convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency;
     getCurrencies(): ICurrency[];
 }

@@ -1,10 +1,10 @@
 {
   "name": "dyna-currencies",
   "version": "0.0.1",
-  "description": "About",
+  "description": "Currency converter",
   "repository": {
     "type": "git",
-    "url": "http://github.com/YOUR_ACCOUNT/dyna-currencies"
+    "url": "http://github.com/aneldev/dyna-currencies"
   },
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
