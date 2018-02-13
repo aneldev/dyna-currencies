@@ -1,5 +1,4 @@
 import {IDynaLabel} from "dyna-interfaces";
-import {isBoolean} from "util";
 
 const currencies: ICurrencies = require('./currencies.json'); // source: https://gist.github.com/Fluidbyte/2973986
 
