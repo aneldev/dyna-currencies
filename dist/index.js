@@ -83,7 +83,7 @@ return /******/ (function(modules) { // webpackBootstrap
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const DynaCurrencies_1 = __webpack_require__(1);
+var DynaCurrencies_1 = __webpack_require__(1);
 exports.DynaCurrencies = DynaCurrencies_1.DynaCurrencies;
 
 
@@ -94,40 +94,46 @@ exports.DynaCurrencies = DynaCurrencies_1.DynaCurrencies;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const currencies = __webpack_require__(2); // source: https://gist.github.com/Fluidbyte/2973986
-class DynaCurrencies {
-    constructor() {
+var currencies = __webpack_require__(2); // source: https://gist.github.com/Fluidbyte/2973986
+var DynaCurrencies = /** @class */ (function () {
+    function DynaCurrencies() {
         this._rates = {};
     }
-    update(rates) {
-        Object.keys(rates).forEach((currenyName) => this._rates[currenyName.toLowerCase()] = rates[currenyName]);
-    }
-    clear() {
+    DynaCurrencies.prototype.update = function (rates) {
+        var _this = this;
+        Object.keys(rates).forEach(function (currenyName) { return _this._rates[currenyName.toLowerCase()] = rates[currenyName]; });
+    };
+    DynaCurrencies.prototype.clear = function () {
         this._rates = {};
-    }
-    get count() {
-        return Object.keys(this._rates || {}).length;
-    }
-    convert(value, fromCurrency, toCurrency, round = false) {
-        const fromRate = this._rates[fromCurrency.toLowerCase()];
-        const toRate = this._rates[toCurrency.toLowerCase()];
+    };
+    Object.defineProperty(DynaCurrencies.prototype, "count", {
+        get: function () {
+            return Object.keys(this._rates || {}).length;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    DynaCurrencies.prototype.convert = function (value, fromCurrency, toCurrency, round) {
+        if (round === void 0) { round = false; }
+        var fromRate = this._rates[fromCurrency.toLowerCase()];
+        var toRate = this._rates[toCurrency.toLowerCase()];
         if (!fromRate || !toRate)
             return null;
-        let output = value * fromRate / toRate;
+        var output = value * fromRate / toRate;
         if (round) {
-            const factor = Math.pow(10, currencies[toCurrency].decimalDigits);
+            var factor = Math.pow(10, currencies[toCurrency].decimalDigits);
             output = Math.round(output * factor) / factor;
         }
         return output;
-    }
-    convertToLabel(value, fromCurrency, toCurrency) {
-        const currency = currencies[toCurrency.toUpperCase()] || {};
-        const cValue = this.convert(value, fromCurrency, toCurrency);
+    };
+    DynaCurrencies.prototype.convertToLabel = function (value, fromCurrency, toCurrency) {
+        var currency = currencies[toCurrency.toUpperCase()] || {};
+        var cValue = this.convert(value, fromCurrency, toCurrency);
         if (!cValue)
             return null;
-        const cValueString = Math.round(cValue * Math.pow(10, currency.decimalDigits || 0)) / Math.pow(10, currency.decimalDigits || 0);
+        var cValueString = Math.round(cValue * Math.pow(10, currency.decimalDigits || 0)) / Math.pow(10, currency.decimalDigits || 0);
         return {
-            text: `${cValueString}${currency.symbol}`,
+            text: "" + cValueString + currency.symbol,
             values: {
                 value: cValue,
                 decimals: currency.decimalDigits,
@@ -138,14 +144,15 @@ class DynaCurrencies {
                 currencySymbolNative: currency.symbolNative,
             }
         };
-    }
-    getCurrencies() {
-        return Object.keys(currencies).reduce((acc, code) => {
+    };
+    DynaCurrencies.prototype.getCurrencies = function () {
+        return Object.keys(currencies).reduce(function (acc, code) {
             acc.push(currencies[code]);
             return acc;
         }, []);
-    }
-}
+    };
+    return DynaCurrencies;
+}());
 exports.DynaCurrencies = DynaCurrencies;
 
 
