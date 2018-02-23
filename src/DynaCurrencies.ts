@@ -1,6 +1,7 @@
 import {IDynaLabel} from "dyna-interfaces";
 
 const currencies: ICurrencies = require('./currencies.json'); // source: https://gist.github.com/Fluidbyte/2973986
+const countries: ICountries = require('./countries.json'); // source: https://raw.githubusercontent.com/annexare/Countries/master/data/countries.json
 
 export interface ICurrencyRates {
   [currencyName: string]: number;
@@ -18,6 +19,20 @@ export interface ICurrency {
   symbolNative?: string;
   decimalDigits?: number;
   rounding?: number;
+}
+
+export interface ICountries {
+  [currencyName: string]: ICurrency;
+}
+
+export interface ICountry {
+  name?: string;
+  native?: string;
+  phone?: string;
+  continent?: string;
+  capital?: string;
+  currency?: string;
+  languages?: string[];
 }
 
 export interface IDynaLabelCurrency extends IDynaLabel {
@@ -88,6 +103,24 @@ export class DynaCurrencies {
       acc.push(currencies[code]);
       return acc;
     }, []);
+  }
+
+  public getCurrenciesByCountry(countryCode: string): ICurrency[] {
+    countryCode = countryCode.toUpperCase();
+    const country: ICountry = countries[countryCode];
+    const currencyCode: string = country && country.currency;
+    debugger;
+    if (currencyCode) {
+      return country.currency
+        .split(',')
+        .map((currencyCode: string) => currencies[currencyCode]);
+    } else {
+      return [];
+    }
+  }
+
+  public getCurrencyByCountry(countryCode:string): ICurrency{
+    return this.getCurrenciesByCountry(countryCode)[0];
   }
 
 }

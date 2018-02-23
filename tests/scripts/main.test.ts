@@ -31,6 +31,14 @@ describe('DynaCurrencies test', () => {
     const allCurrencies: ICurrency[] = dynaCurrencies.getCurrencies();
     expect(allCurrencies.length > 100).toBe(true);
     expect(allCurrencies.filter(c => c.symbol.indexOf('$') > -1).length > 20).toBe(true);
-  })
+  });
+
+  it('should get currencies by country code', () => {
+    expect(dynaCurrencies.getCurrencyByCountry('us').code).toBe('USD');
+    expect(dynaCurrencies.getCurrencyByCountry('fr').code).toBe('EUR');
+    expect(dynaCurrencies.getCurrencyByCountry('gr').code).toBe('EUR');
+    expect(dynaCurrencies.getCurrencyByCountry('tr').code).toBe('TRY');
+    expect(dynaCurrencies.getCurrencyByCountry('hk').code).toBe('HKD');
+  });
 
 });
