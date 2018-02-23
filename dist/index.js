@@ -156,7 +156,6 @@ var DynaCurrencies = /** @class */ (function () {
         countryCode = countryCode.toUpperCase();
         var country = countries[countryCode];
         var currencyCode = country && country.currency;
-        debugger;
         if (currencyCode) {
             return country.currency
                 .split(',')

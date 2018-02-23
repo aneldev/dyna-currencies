@@ -109,7 +109,7 @@ export class DynaCurrencies {
     countryCode = countryCode.toUpperCase();
     const country: ICountry = countries[countryCode];
     const currencyCode: string = country && country.currency;
-    debugger;
+
     if (currencyCode) {
       return country.currency
         .split(',')
