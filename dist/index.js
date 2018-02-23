@@ -95,7 +95,7 @@ exports.DynaCurrencies = DynaCurrencies_1.DynaCurrencies;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var currencies = __webpack_require__(3); // source: https://gist.github.com/Fluidbyte/2973986
-var countries = __webpack_require__(2); // source: https://raw.githubusercontent.com/annexare/Countries/master/data/countries.json
+var countries = __webpack_require__(2); // source: https://github.com/annexare/Countries/blob/master/data/countries.json
 var DynaCurrencies = /** @class */ (function () {
     function DynaCurrencies() {
         this._rates = {};

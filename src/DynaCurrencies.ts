@@ -1,7 +1,7 @@
 import {IDynaLabel} from "dyna-interfaces";
 
 const currencies: ICurrencies = require('./currencies.json'); // source: https://gist.github.com/Fluidbyte/2973986
-const countries: ICountries = require('./countries.json'); // source: https://raw.githubusercontent.com/annexare/Countries/master/data/countries.json
+const countries: ICountries = require('./countries.json'); // source: https://github.com/annexare/Countries/blob/master/data/countries.json
 
 export interface ICurrencyRates {
   [currencyName: string]: number;
