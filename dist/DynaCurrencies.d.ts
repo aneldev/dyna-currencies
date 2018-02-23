@@ -14,6 +14,18 @@ export interface ICurrency {
     decimalDigits?: number;
     rounding?: number;
 }
+export interface ICountries {
+    [currencyName: string]: ICurrency;
+}
+export interface ICountry {
+    name?: string;
+    native?: string;
+    phone?: string;
+    continent?: string;
+    capital?: string;
+    currency?: string;
+    languages?: string[];
+}
 export interface IDynaLabelCurrency extends IDynaLabel {
     values: {
         value: number;
@@ -33,4 +45,6 @@ export declare class DynaCurrencies {
     convert(value: number, fromCurrency: string, toCurrency: string, round?: boolean): number;
     convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency;
     getCurrencies(): ICurrency[];
+    getCurrenciesByCountry(countryCode: string): ICurrency[];
+    getCurrencyByCountry(countryCode: string): ICurrency;
 }
