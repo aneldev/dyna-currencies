@@ -1,2 +1,2 @@
 import { DynaCurrencies, ICurrencyRates, ICurrency, IDynaLabelCurrency } from './DynaCurrencies';
-export { DynaCurrencies, ICurrencyRates, ICurrency, IDynaLabelCurrency };
+export { DynaCurrencies, ICurrencyRates, ICurrency, IDynaLabelCurrency, };

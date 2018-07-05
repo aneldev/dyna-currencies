@@ -1,4 +1,4 @@
-import {IDynaLabel} from "dyna-interfaces";
+import {IDynaLabel, IDynaPrice} from "dyna-interfaces";
 
 const currencies: ICurrencies = require('./currencies.json'); // source: https://gist.github.com/Fluidbyte/2973986
 const countries: ICountries = require('./countries.json'); // source: https://github.com/annexare/Countries/blob/master/data/countries.json
@@ -78,6 +78,13 @@ export class DynaCurrencies {
     return output;
   }
 
+  public convertDynaPrice(price: IDynaPrice, toCurrency: string): IDynaPrice {
+    return {
+      value: this.convert(price.value, price.currency, toCurrency),
+      currency: toCurrency,
+    };
+  }
+
   public convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency {
     const currency: ICurrency = currencies[toCurrency.toUpperCase()] || {};
     const cValue: number = this.convert(value, fromCurrency, toCurrency);
@@ -119,7 +126,7 @@ export class DynaCurrencies {
     }
   }
 
-  public getCurrencyByCountry(countryCode:string): ICurrency{
+  public getCurrencyByCountry(countryCode: string): ICurrency {
     return this.getCurrenciesByCountry(countryCode)[0];
   }
 

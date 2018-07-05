@@ -127,6 +127,12 @@ var DynaCurrencies = /** @class */ (function () {
         }
         return output;
     };
+    DynaCurrencies.prototype.convertDynaPrice = function (price, toCurrency) {
+        return {
+            value: this.convert(price.value, price.currency, toCurrency),
+            currency: toCurrency,
+        };
+    };
     DynaCurrencies.prototype.convertToLabel = function (value, fromCurrency, toCurrency) {
         var currency = currencies[toCurrency.toUpperCase()] || {};
         var cValue = this.convert(value, fromCurrency, toCurrency);

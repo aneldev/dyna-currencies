@@ -1,4 +1,4 @@
-import { IDynaLabel } from "dyna-interfaces";
+import { IDynaLabel, IDynaPrice } from "dyna-interfaces";
 export interface ICurrencyRates {
     [currencyName: string]: number;
 }
@@ -43,6 +43,7 @@ export declare class DynaCurrencies {
     clear(): void;
     readonly count: number;
     convert(value: number, fromCurrency: string, toCurrency: string, round?: boolean): number;
+    convertDynaPrice(price: IDynaPrice, toCurrency: string): IDynaPrice;
     convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency;
     getCurrencies(): ICurrency[];
     getCurrenciesByCountry(countryCode: string): ICurrency[];
