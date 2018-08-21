@@ -63,6 +63,7 @@ export class DynaCurrencies {
   }
 
   public convert(value: number, fromCurrency: string, toCurrency: string, round: boolean = false): number {
+    if (fromCurrency === toCurrency) return value;
     const fromRate: number = this._rates[fromCurrency.toLowerCase()];
     const toRate: number = this._rates[toCurrency.toLowerCase()];
     if (!fromRate || !toRate) return null;

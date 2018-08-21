@@ -116,6 +116,8 @@ var DynaCurrencies = /** @class */ (function () {
     });
     DynaCurrencies.prototype.convert = function (value, fromCurrency, toCurrency, round) {
         if (round === void 0) { round = false; }
+        if (fromCurrency === toCurrency)
+            return value;
         var fromRate = this._rates[fromCurrency.toLowerCase()];
         var toRate = this._rates[toCurrency.toLowerCase()];
         if (!fromRate || !toRate)
