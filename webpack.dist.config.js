@@ -10,7 +10,7 @@ const loaders = require('./webpack.loaders');
 const plugins = require('./webpack.plugins');
 
 const config = {
-	target: 'node', // help: https://webpack.github.io/docs/configuration.html#target
+	target: 'web', // help: https://webpack.github.io/docs/configuration.html#target
 	entry: [
 		// do not load babel-polyfill here, the application should load the polyfills!
 		// the entry application code
