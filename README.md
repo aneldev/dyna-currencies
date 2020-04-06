@@ -12,77 +12,105 @@ import {DynaCurrencies} from 'dyna-currencies';
 
 const dynaCurrencies = new DynaCurrencies();
 
-dynaCurrencies.update({"usd": 1, "eur": 0.85});
+dynaCurrencies.updateRates({"usd": 1, "eur": 0.85});
 
-let usdPrice = dynaCurrencies.convert(2.45, 'eur', 'USD',true);
+let usdPrice = dynaCurrencies.convert(2.45, 'eur', 'usd', true);
 
-console.log('usd', usdPrice);
+console.log(usdPrice); // 2.88 
+
 ```  
 
 # Methods
 
-## update(rates: ICurrencyRates): void
+## updateRates(rates: ICurrencyRates): void
 
-Update the the rates partially. You can pass so many rates you want (not all of them).
+Update the partially. You can pass so many rates you want (not all of them).
+
+When no rates are updated, the many convert functions return null.
 
 ## clear(): void
 
 Clears all rates (added/updated with `update`).
 
-## convert(value: number, fromCurrency: string, toCurrency: string, round: boolean = false): number
+## convert(value: number, fromCurrency: string, toCurrency: string, round: boolean = false): number | null
 
-The converter a curreny to something else.
+Set `round` to true to round the currency according to the decimals of the target currency.
 
-Set `round` to true to round the currency according the decimals of the target currency.
+## convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency | null
 
-## convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency
+Converts the currency, and the output instead of a number is the IDynaLabelCurrency interface where is friendly for the [Yahoo Intl](https://github.com/yahoo/react-intl). 
 
-Converts the currency and the output instead of number is the IDynaLabelCurrency interface where is friently for the [Yahoo Intl](https://github.com/yahoo/react-intl). 
+## convertDynaPrice(price: IDynaPrice, toCurrency: string): IDynaPrice | null
+
+It converts a DynaPrice object.
+
+## getCurrencyRatesDic(): ICurrencyRates
+
+Get all currencies as a dictionary.
 
 ## getCurrencies(): ICurrency[]
 
-Get all currencies to array for drop down controls etc..
+Get all currencies to array for drop-down controls, etc..
+
+## getCurrencyRatesByCountry(countryCode: string): ICurrency[]
+
+Get all currencies that a country can hold.
+
+## getCurrencyByCountry(countryCode: string): ICurrency | null
+
+Get the main currency for a country.
+
+Return null when no rates are loaded or when it countryCode is wrong.
 
 # Properties
 
 ## count: number
 
-Returns the number of the loaded rates.
+It returns the number of all updated rates.
+
+## hasRates: boolean
+
+It returns all the updated rates.
+
+## lastUpdate: Date
+
+When updated last time
 
 # Interfaces
 
-## ICurrencyRates
-```
-{
-  [currencyName: string]: number;
+interface ICurrencyRates {
+  [currencyName: string]: number | undefined;
 }
-```
 
-## ICurrencies 
-```
-{
+interface ICurrencies {
   [currencyName: string]: ICurrency;
 }
-```
 
-## ICurrency 
-```
-{
-  code?: string;
-  symbol?: string;
-  name?: string;
-  namePlural?: string;
-  symbolNative?: string;
-  decimalDigits?: number;
-  rounding?: number;
+interface ICurrency {
+  code: string;
+  symbol: string;
+  name: string;
+  namePlural: string;
+  symbolNative: string;
+  decimalDigits: number;
+  rounding: number;
 }
-```
 
-## IDynaLabelCurrency
-```
-{
-  text?: string;            // the text will be applied if the tk not found (as default text)
-  tk?: string;              // the translation key (not yet created from dyna-currency)
+interface ICountries {
+  [currencyName: string]: ICountry | undefined;
+}
+
+interface ICountry {
+  name: string;
+  native: string;
+  phone: string;
+  continent: string;
+  capital: string;
+  currency: string;
+  languages: string[];
+}
+
+interface IDynaLabelCurrency extends IDynaLabel {
   values: {
     value: number;
     decimals: number;
@@ -93,4 +121,12 @@ Returns the number of the loaded rates.
     currencySymbolNative: string;
   }
 }
-```
+
+interface IDynaLabel {
+  // object used for ui labels, where the content of it is used also for translations
+  text?: string;            // the text will be applied if the tk not found (as default text)
+  tk?: string;              // the translation key
+  values?: {                // values are used inside the translated text (obtained by the tk)
+    [key: string]: string | number;
+  };
+}
