@@ -1,4 +1,4 @@
-declare let jasmine: any, describe: any, expect: any, it: any;
+import "jest";
 
 import {DynaCurrencies, IDynaLabelCurrency, ICurrencyRates, ICurrency} from '../../src/index';
 
