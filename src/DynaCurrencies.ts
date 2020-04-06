@@ -1,10 +1,13 @@
-import {IDynaLabel, IDynaPrice} from "dyna-interfaces";
+import {
+  IDynaLabel,
+  IDynaPrice
+} from "dyna-interfaces";
 
-const currencies: ICurrencies = require('./currencies.json'); // source: https://gist.github.com/Fluidbyte/2973986
-const countries: ICountries = require('./countries.json'); // source: https://github.com/annexare/Countries/blob/master/data/countries.json
+const currenciesInfo: ICurrencies = require('./currenciesInfo.json');   // source: https://gist.github.com/Fluidbyte/2973986
+const countriesInfo: ICountries = require('./countriesInfo.json');          // source: https://github.com/annexare/Countries/blob/master/data/countries.json
 
 export interface ICurrencyRates {
-  [currencyName: string]: number;
+  [currencyName: string]: number | undefined;
 }
 
 export interface ICurrencies {
@@ -12,27 +15,27 @@ export interface ICurrencies {
 }
 
 export interface ICurrency {
-  code?: string;
-  symbol?: string;
-  name?: string;
-  namePlural?: string;
-  symbolNative?: string;
-  decimalDigits?: number;
-  rounding?: number;
+  code: string;
+  symbol: string;
+  name: string;
+  namePlural: string;
+  symbolNative: string;
+  decimalDigits: number;
+  rounding: number;
 }
 
 export interface ICountries {
-  [currencyName: string]: ICurrency;
+  [currencyName: string]: ICountry | undefined;
 }
 
 export interface ICountry {
-  name?: string;
-  native?: string;
-  phone?: string;
-  continent?: string;
-  capital?: string;
-  currency?: string;
-  languages?: string[];
+  name: string;
+  native: string;
+  phone: string;
+  continent: string;
+  capital: string;
+  currency: string;
+  languages: string[];
 }
 
 export interface IDynaLabelCurrency extends IDynaLabel {
@@ -48,88 +51,117 @@ export interface IDynaLabelCurrency extends IDynaLabel {
 }
 
 export class DynaCurrencies {
-  private _rates: ICurrencyRates = {};
+  private _currencyRates: ICurrencyRates = {};
+  private _lastUpdate: Date | null = null;
 
-  public update(rates: ICurrencyRates): void {
-    Object.keys(rates).forEach((currenyName: string) => this._rates[currenyName.toLowerCase()] = rates[currenyName]);
+  public updateRates(rates: ICurrencyRates): void {
+    Object.keys(rates)
+      .forEach((currencyName: string) => this._currencyRates[currencyName.toLowerCase()] = rates[currencyName]);
+    this._lastUpdate = new Date;
   }
 
-  public clear(): void {
-    this._rates = {};
+  public clearRates(): void {
+    this._currencyRates = {};
+    this._lastUpdate = null;
   }
 
   public get count(): number {
-    return Object.keys(this._rates || {}).length;
+    return Object.keys(this._currencyRates).length;
   }
 
-  public convert(value: number, fromCurrency: string, toCurrency: string, round: boolean = false): number {
-    if (fromCurrency === toCurrency) return value;
-    const fromRate: number = this._rates[fromCurrency.toLowerCase()];
-    const toRate: number = this._rates[toCurrency.toLowerCase()];
-    if (!fromRate || !toRate) return null;
+  public get lastUpdate(): Date | null {
+    return this._lastUpdate;
+  }
+
+  public get hasRates(): boolean {
+    return !!this.count;
+  }
+
+  public convert(value: number, fromCurrency: string, toCurrency: string, round: boolean = false): number | null {
+    const fromCurrencyLC = fromCurrency.toLowerCase();
+    const toCurrencyLC = toCurrency.toLowerCase();
+    const toCurrencyUC = toCurrency.toUpperCase();
+
+    if (fromCurrencyLC === toCurrencyLC) return value;
+
+    const fromRate = this._currencyRates[fromCurrencyLC];
+    const toRate = this._currencyRates[toCurrencyLC];
+    const curInfo = currenciesInfo[toCurrencyUC];
+
+    if (fromRate === undefined) return null;
+    if (toRate === undefined) return null;
+    if (curInfo === undefined) return null;
 
     let output: number = value * fromRate / toRate;
 
-
     if (round) {
-      const factor: number = Math.pow(10, currencies[toCurrency].decimalDigits);
+      const factor: number = Math.pow(10, curInfo[toCurrencyLC].decimalDigits);
       output = Math.round(output * factor) / factor;
     }
 
     return output;
   }
 
-  public convertDynaPrice(price: IDynaPrice, toCurrency: string): IDynaPrice {
+  public convertDynaPrice(price: IDynaPrice, toCurrency: string): IDynaPrice | null {
+    const toCurrencyLC = toCurrency.toLowerCase();
+    const value = this.convert(price.value, price.currency, toCurrencyLC);
+    if (value === null) return null;
     return {
-      value: this.convert(price.value, price.currency, toCurrency),
-      currency: toCurrency,
+      value,
+      currency: toCurrencyLC,
     };
   }
 
-  public convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency {
-    const currency: ICurrency = currencies[toCurrency.toUpperCase()] || {};
-    const cValue: number = this.convert(value, fromCurrency, toCurrency);
-    if (!cValue) return null;
-    const cValueString: number = Math.round(cValue * Math.pow(10, currency.decimalDigits || 0)) / Math.pow(10, currency.decimalDigits || 0)
+  public convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency | null {
+    const currInfo = currenciesInfo[toCurrency.toUpperCase()] || {};
+    const cValue = this.convert(value, fromCurrency, toCurrency);
+    if (currInfo === undefined) return null;
+    if (cValue === null) return null;
+
+    const cValueString: number = Math.round(cValue * Math.pow(10, currInfo.decimalDigits || 0)) / Math.pow(10, currInfo.decimalDigits || 0);
 
     return {
-      text: `${cValueString}${currency.symbol}`,
+      text: `${cValueString}${currInfo.symbol}`,
       values: {
         value: cValue,
-        decimals: currency.decimalDigits,
-        currencyName: currency.name,
-        currencyNamePlural: currency.namePlural,
-        currencyCode: currency.code,
-        currencySymbol: currency.symbol,
-        currencySymbolNative: currency.symbolNative,
+        decimals: currInfo.decimalDigits,
+        currencyName: currInfo.name,
+        currencyNamePlural: currInfo.namePlural,
+        currencyCode: currInfo.code,
+        currencySymbol: currInfo.symbol,
+        currencySymbolNative: currInfo.symbolNative,
       }
     }
   }
 
-  public getCurrencies(): ICurrency[] {
-    return Object.keys(currencies).reduce((acc: ICurrency[], code: string) => {
-      acc.push(currencies[code]);
-      return acc;
-    }, []);
+  public getCurrencyRatesDic(): ICurrencyRates {
+    return {...this._currencyRates};
   }
 
-  public getCurrenciesByCountry(countryCode: string): ICurrency[] {
-    countryCode = countryCode.toUpperCase();
-    const country: ICountry = countries[countryCode];
-    const currencyCode: string = country && country.currency;
-
-    if (currencyCode) {
-      return country.currency
-        .split(',')
-        .map((currencyCode: string) => currencies[currencyCode]);
-    } else {
-      return [];
-    }
+  public getCurrencyRatesArray(): ICurrency[] {
+    return Object.keys(currenciesInfo)
+      .reduce((acc: ICurrency[], code: string) => {
+        acc.push(currenciesInfo[code]);
+        return acc;
+      }, []);
   }
 
-  public getCurrencyByCountry(countryCode: string): ICurrency {
-    return this.getCurrenciesByCountry(countryCode)[0];
+  public getCurrencyRatesByCountry(countryCode: string): ICurrency[] {
+    const country = countriesInfo[countryCode.toUpperCase()];
+
+    if (!country) return [];
+
+    return country
+      .currency
+      .split(',')
+      .map((currencyCode: string) => currenciesInfo[currencyCode])
+      .filter(Boolean);
   }
 
+  public getCurrencyByCountry(countryCode: string): ICurrency | null {
+    const countryCurrencyRate = this.getCurrencyRatesByCountry(countryCode)[0];
+    if (!countryCurrencyRate) return null;
+    return countryCurrencyRate;
+  }
 }
 

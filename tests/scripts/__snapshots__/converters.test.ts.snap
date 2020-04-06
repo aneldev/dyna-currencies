@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynaCurrencies, converters should convert DynaPrices 1`] = `
+Object {
+  "currency": "gbp",
+  "value": 2.7521418263204316,
+}
+`;
+
+exports[`DynaCurrencies, converters should convert to label 1`] = `
+Object {
+  "text": "2.75£",
+  "values": Object {
+    "currencyCode": "GBP",
+    "currencyName": "British Pound Sterling",
+    "currencyNamePlural": "British pounds sterling",
+    "currencySymbol": "£",
+    "currencySymbolNative": "£",
+    "decimals": 2,
+    "value": 2.7521418263204316,
+  },
+}
+`;
+
+exports[`DynaCurrencies, converters should get currencies by country code: fr 1`] = `
+Object {
+  "code": "EUR",
+  "decimalDigits": 2,
+  "name": "Euro",
+  "namePlural": "euros",
+  "rounding": 0,
+  "symbol": "€",
+  "symbolNative": "€",
+}
+`;
+
+exports[`DynaCurrencies, converters should get currencies by country code: gr 1`] = `
+Object {
+  "code": "EUR",
+  "decimalDigits": 2,
+  "name": "Euro",
+  "namePlural": "euros",
+  "rounding": 0,
+  "symbol": "€",
+  "symbolNative": "€",
+}
+`;
+
+exports[`DynaCurrencies, converters should get currencies by country code: hk 1`] = `
+Object {
+  "code": "HKD",
+  "decimalDigits": 2,
+  "name": "Hong Kong Dollar",
+  "namePlural": "Hong Kong dollars",
+  "rounding": 0,
+  "symbol": "HK$",
+  "symbolNative": "$",
+}
+`;
+
+exports[`DynaCurrencies, converters should get currencies by country code: tr 1`] = `
+Object {
+  "code": "TRY",
+  "decimalDigits": 2,
+  "name": "Turkish Lira",
+  "namePlural": "Turkish Lira",
+  "rounding": 0,
+  "symbol": "TL",
+  "symbolNative": "TL",
+}
+`;
+
+exports[`DynaCurrencies, converters should get currencies by country code: unknown 1`] = `null`;
+
+exports[`DynaCurrencies, converters should get currencies by country code: us 1`] = `
+Object {
+  "code": "USD",
+  "decimalDigits": 2,
+  "name": "US Dollar",
+  "namePlural": "US dollars",
+  "rounding": 0,
+  "symbol": "$",
+  "symbolNative": "$",
+}
+`;
+
+exports[`DynaCurrencies, converters should not convert DynaPrices when no rates 1`] = `null`;
+
+exports[`DynaCurrencies, converters should not convert label when no rates 1`] = `null`;
