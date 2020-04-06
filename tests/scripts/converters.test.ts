@@ -111,4 +111,19 @@ describe('DynaCurrencies, converters', () => {
     const labelPrice = dynaCurrencies.convertToLabel(3.12, 'euR', 'gbP');
     expect(labelPrice).toMatchSnapshot();
   });
+
+  it('should convert and round', () => {
+    const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
+    dynaCurrencies.updateRates(rates);
+    let usdPrice = dynaCurrencies.convert(2.45, 'eur', 'usd', true);
+    expect(usdPrice).toBe(2.88);
+  });
+
+  it('should convert with no round', () => {
+    const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
+    dynaCurrencies.updateRates(rates);
+    let usdPrice = dynaCurrencies.convert(2.45, 'eur', 'usd', true);
+    expect(usdPrice).toBe(2.88);
+  });
+
 });

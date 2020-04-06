@@ -95,7 +95,7 @@ export class DynaCurrencies {
     let output: number = value * fromRate / toRate;
 
     if (round) {
-      const factor: number = Math.pow(10, curInfo[toCurrencyLC].decimalDigits);
+      const factor: number = Math.pow(10, curInfo.decimalDigits);
       output = Math.round(output * factor) / factor;
     }
 
