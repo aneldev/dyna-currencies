@@ -52,7 +52,7 @@ export interface IDynaLabelCurrency extends IDynaLabel {
 
 export class DynaCurrencies {
   private _currencyRates: ICurrencyRates = {};
-  private _lastUpdate: Date | null;
+  private _lastUpdate: Date | null = null;
 
   public updateRates(rates: ICurrencyRates): void {
     Object.keys(rates)
@@ -62,6 +62,7 @@ export class DynaCurrencies {
 
   public clearRates(): void {
     this._currencyRates = {};
+    this._lastUpdate = null;
   }
 
   public get count(): number {
@@ -146,20 +147,21 @@ export class DynaCurrencies {
   }
 
   public getCurrencyRatesByCountry(countryCode: string): ICurrency[] {
-    countryCode = countryCode.toUpperCase();
-    const country = countriesInfo[countryCode];
+    const country = countriesInfo[countryCode.toUpperCase()];
 
     if (!country) return [];
 
-    return country.currency
+    return country
+      .currency
       .split(',')
       .map((currencyCode: string) => currenciesInfo[currencyCode])
       .filter(Boolean);
   }
 
-  public getCurrencyByCountry(countryCode: string): ICurrency {
-    return this.getCurrencyRatesByCountry(countryCode)[0];
+  public getCurrencyByCountry(countryCode: string): ICurrency | null {
+    const countryCurrencyRate = this.getCurrencyRatesByCountry(countryCode)[0];
+    if (!countryCurrencyRate) return null;
+    return countryCurrencyRate;
   }
-
 }
 

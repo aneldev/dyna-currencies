@@ -6,13 +6,27 @@ const ratesText: string = `{"cad":46.1916,"tnd":23.3343,"rsd":0.570674,"bgn":34.
 const rates: ICurrencyRates = JSON.parse(ratesText);
 
 
-describe('DynaCurrencies test', () => {
+describe('DynaCurrencies, converters', () => {
   it('should load the rates', () => {
     const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
     expect(dynaCurrencies.hasRates).toBe(false);
     dynaCurrencies.updateRates(rates);
     expect(dynaCurrencies.count).not.toBe(0);
     expect(dynaCurrencies.hasRates).toBe(true);
+  });
+
+  it('should reset the rates', () => {
+    const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
+    expect(dynaCurrencies.hasRates).toBe(false);
+    expect(dynaCurrencies.lastUpdate).toBe(null);
+    dynaCurrencies.updateRates(rates);
+    expect(dynaCurrencies.count).not.toBe(0);
+    expect(dynaCurrencies.hasRates).toBe(true);
+    expect(dynaCurrencies.lastUpdate).not.toBe(null);
+    dynaCurrencies.clearRates();
+    expect(dynaCurrencies.count).toBe(0);
+    expect(dynaCurrencies.hasRates).toBe(false);
+    expect(dynaCurrencies.lastUpdate).toBe(null);
   });
 
   it('should generate a label with values', () => {
@@ -44,11 +58,57 @@ describe('DynaCurrencies test', () => {
   it('should get currencies by country code', () => {
     const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
     dynaCurrencies.updateRates(rates);
-    expect(dynaCurrencies.getCurrencyByCountry('us').code).toBe('USD');
-    expect(dynaCurrencies.getCurrencyByCountry('fr').code).toBe('EUR');
-    expect(dynaCurrencies.getCurrencyByCountry('gr').code).toBe('EUR');
-    expect(dynaCurrencies.getCurrencyByCountry('tr').code).toBe('TRY');
-    expect(dynaCurrencies.getCurrencyByCountry('hk').code).toBe('HKD');
+
+    expect(dynaCurrencies.getCurrencyByCountry('us')).toMatchSnapshot('us');
+    expect(dynaCurrencies.getCurrencyByCountry('fr')).toMatchSnapshot('fr');
+    expect(dynaCurrencies.getCurrencyByCountry('gr')).toMatchSnapshot('gr');
+    expect(dynaCurrencies.getCurrencyByCountry('tr')).toMatchSnapshot('tr');
+    expect(dynaCurrencies.getCurrencyByCountry('hk')).toMatchSnapshot('hk');
+    expect(dynaCurrencies.getCurrencyByCountry('unknown')).toMatchSnapshot('unknown');
   });
 
+  it('should not convert when no rates', () => {
+    const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
+    expect(dynaCurrencies.convert(3.12, 'eur', 'gbp')).toBe(null);
+    dynaCurrencies.updateRates(rates);
+    expect(dynaCurrencies.convert(3.12, 'eur', 'gbp')).not.toBe(null);
+  });
+
+  it('should convert DynaPrices', () => {
+    const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
+    dynaCurrencies.updateRates(rates);
+    const gbpDynaPrice = dynaCurrencies.convertDynaPrice(
+      {
+        value: 3.12,
+        currency: 'euR',
+      },
+      'gbP',
+    );
+    expect(gbpDynaPrice).toMatchSnapshot();
+  });
+
+  it('should not convert DynaPrices when no rates', () => {
+    const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
+    const gbpDynaPrice = dynaCurrencies.convertDynaPrice(
+      {
+        value: 3.12,
+        currency: 'euR',
+      },
+      'gbP',
+    );
+    expect(gbpDynaPrice).toMatchSnapshot();
+  });
+
+  it('should convert to label', () => {
+    const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
+    dynaCurrencies.updateRates(rates);
+    const labelPrice = dynaCurrencies.convertToLabel(3.12, 'euR', 'gbP');
+    expect(labelPrice).toMatchSnapshot();
+  });
+
+  it('should not convert label when no rates', () => {
+    const dynaCurrencies: DynaCurrencies = new DynaCurrencies();
+    const labelPrice = dynaCurrencies.convertToLabel(3.12, 'euR', 'gbP');
+    expect(labelPrice).toMatchSnapshot();
+  });
 });
