@@ -67,7 +67,7 @@ var DynaCurrencies = /** @class */ (function () {
             return null;
         var output = value * fromRate / toRate;
         if (round) {
-            var factor = Math.pow(10, curInfo[toCurrencyLC].decimalDigits);
+            var factor = Math.pow(10, curInfo.decimalDigits);
             output = Math.round(output * factor) / factor;
         }
         return output;
