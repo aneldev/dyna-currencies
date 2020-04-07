@@ -11,8 +11,8 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var currenciesInfo = require('./currenciesInfo.json'); // source: https://gist.github.com/Fluidbyte/2973986
-var countriesInfo = require('./countriesInfo.json'); // source: https://github.com/annexare/Countries/blob/master/data/countries.json
+var currenciesInfo_1 = require("./currenciesInfo");
+var countriesInfo_1 = require("./countriesInfo");
 var DynaCurrencies = /** @class */ (function () {
     function DynaCurrencies() {
         this._currencyRates = {};
@@ -58,7 +58,7 @@ var DynaCurrencies = /** @class */ (function () {
             return value;
         var fromRate = this._currencyRates[fromCurrencyLC];
         var toRate = this._currencyRates[toCurrencyLC];
-        var curInfo = currenciesInfo[toCurrencyUC];
+        var curInfo = currenciesInfo_1.currenciesInfo[toCurrencyUC];
         if (fromRate === undefined)
             return null;
         if (toRate === undefined)
@@ -83,7 +83,7 @@ var DynaCurrencies = /** @class */ (function () {
         };
     };
     DynaCurrencies.prototype.convertToLabel = function (value, fromCurrency, toCurrency) {
-        var currInfo = currenciesInfo[toCurrency.toUpperCase()] || {};
+        var currInfo = currenciesInfo_1.currenciesInfo[toCurrency.toUpperCase()] || {};
         var cValue = this.convert(value, fromCurrency, toCurrency);
         if (currInfo === undefined)
             return null;
@@ -107,20 +107,20 @@ var DynaCurrencies = /** @class */ (function () {
         return __assign({}, this._currencyRates);
     };
     DynaCurrencies.prototype.getCurrencyRatesArray = function () {
-        return Object.keys(currenciesInfo)
+        return Object.keys(currenciesInfo_1.currenciesInfo)
             .reduce(function (acc, code) {
-            acc.push(currenciesInfo[code]);
+            acc.push(currenciesInfo_1.currenciesInfo[code]);
             return acc;
         }, []);
     };
     DynaCurrencies.prototype.getCurrencyRatesByCountry = function (countryCode) {
-        var country = countriesInfo[countryCode.toUpperCase()];
+        var country = countriesInfo_1.countriesInfo[countryCode.toUpperCase()];
         if (!country)
             return [];
         return country
             .currency
             .split(',')
-            .map(function (currencyCode) { return currenciesInfo[currencyCode]; })
+            .map(function (currencyCode) { return currenciesInfo_1.currenciesInfo[currencyCode]; })
             .filter(Boolean);
     };
     DynaCurrencies.prototype.getCurrencyByCountry = function (countryCode) {

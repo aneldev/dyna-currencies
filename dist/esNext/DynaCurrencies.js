@@ -9,8 +9,8 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-var currenciesInfo = require('./currenciesInfo.json'); // source: https://gist.github.com/Fluidbyte/2973986
-var countriesInfo = require('./countriesInfo.json'); // source: https://github.com/annexare/Countries/blob/master/data/countries.json
+import { currenciesInfo } from "./currenciesInfo";
+import { countriesInfo } from "./countriesInfo";
 var DynaCurrencies = /** @class */ (function () {
     function DynaCurrencies() {
         this._currencyRates = {};
