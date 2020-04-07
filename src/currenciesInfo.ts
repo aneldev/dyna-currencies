@@ -1,4 +1,8 @@
-{
+import { ICurrencies } from "./DynaCurrencies";
+
+// source: https://github.com/annexare/Countries/blob/master/data/countries.json
+
+export const currenciesInfo: ICurrencies = {
   "USD": {
     "symbol": "$",
     "name": "US Dollar",

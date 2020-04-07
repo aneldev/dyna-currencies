@@ -41,6 +41,7 @@ export declare class DynaCurrencies {
     private _currencyRates;
     private _lastUpdate;
     updateRates(rates: ICurrencyRates): void;
+    setRatesRaw(rates: ICurrencyRates): void;
     clearRates(): void;
     get count(): number;
     get lastUpdate(): Date | null;

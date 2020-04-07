@@ -3,8 +3,8 @@ import {
   IDynaPrice
 } from "dyna-interfaces";
 
-const currenciesInfo: ICurrencies = require('./currenciesInfo.json');   // source: https://gist.github.com/Fluidbyte/2973986
-const countriesInfo: ICountries = require('./countriesInfo.json');          // source: https://github.com/annexare/Countries/blob/master/data/countries.json
+import { currenciesInfo } from "./currenciesInfo";
+import { countriesInfo } from "./countriesInfo";
 
 export interface ICurrencyRates {
   [currencyName: string]: number | undefined;

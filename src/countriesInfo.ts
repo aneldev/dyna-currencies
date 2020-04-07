@@ -1,4 +1,8 @@
-{
+import { ICountries } from "./DynaCurrencies";
+
+// source: https://gist.github.com/Fluidbyte/2973986
+
+export const countriesInfo: ICountries = {
   "AD": {
     "name": "Andorra",
     "native": "Andorra",
@@ -2860,4 +2864,4 @@
       "nd"
     ]
   }
-}
+};
