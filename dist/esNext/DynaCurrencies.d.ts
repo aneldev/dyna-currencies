@@ -45,11 +45,11 @@ export declare class DynaCurrencies {
     get count(): number;
     get lastUpdate(): Date | null;
     get hasRates(): boolean;
-    convert(value: number, fromCurrency: string, toCurrency: string, round?: boolean): number | null;
-    convertDynaPrice(price: IDynaPrice, toCurrency: string): IDynaPrice | null;
-    convertToLabel(value: number, fromCurrency: string, toCurrency: string): IDynaLabelCurrency | null;
-    getCurrencyRatesDic(): ICurrencyRates;
-    getCurrencyRatesArray(): ICurrency[];
-    getCurrencyRatesByCountry(countryCode: string): ICurrency[];
-    getCurrencyByCountry(countryCode: string): ICurrency | null;
+    convert: (value: number, fromCurrency: string, toCurrency: string, round?: boolean) => number | null;
+    convertDynaPrice: (price: IDynaPrice, toCurrency: string) => IDynaPrice | null;
+    convertToLabel: (value: number, fromCurrency: string, toCurrency: string) => IDynaLabelCurrency | null;
+    getCurrencyRatesDic: () => ICurrencyRates;
+    getCurrencyRatesArray: () => ICurrency[];
+    getCurrencyRatesByCountry: (countryCode: string) => ICurrency[];
+    getCurrencyByCountry: (countryCode: string) => ICurrency | null;
 }
