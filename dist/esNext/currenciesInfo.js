@@ -7,7 +7,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "USD",
-        "namePlural": "US dollars"
+        "namePlural": "US dollars",
     },
     "CAD": {
         "symbol": "CA$",
@@ -16,7 +16,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "CAD",
-        "namePlural": "Canadian dollars"
+        "namePlural": "Canadian dollars",
     },
     "EUR": {
         "symbol": "€",
@@ -25,7 +25,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "EUR",
-        "namePlural": "euros"
+        "namePlural": "euros",
     },
     "AED": {
         "symbol": "AED",
@@ -34,7 +34,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "AED",
-        "namePlural": "UAE dirhams"
+        "namePlural": "UAE dirhams",
     },
     "AFN": {
         "symbol": "Af",
@@ -43,7 +43,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "AFN",
-        "namePlural": "Afghan Afghanis"
+        "namePlural": "Afghan Afghanis",
     },
     "ALL": {
         "symbol": "ALL",
@@ -52,7 +52,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "ALL",
-        "namePlural": "Albanian lekë"
+        "namePlural": "Albanian lekë",
     },
     "AMD": {
         "symbol": "AMD",
@@ -61,7 +61,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "AMD",
-        "namePlural": "Armenian drams"
+        "namePlural": "Armenian drams",
     },
     "ARS": {
         "symbol": "AR$",
@@ -70,7 +70,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "ARS",
-        "namePlural": "Argentine pesos"
+        "namePlural": "Argentine pesos",
     },
     "AUD": {
         "symbol": "AU$",
@@ -79,7 +79,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "AUD",
-        "namePlural": "Australian dollars"
+        "namePlural": "Australian dollars",
     },
     "AZN": {
         "symbol": "man.",
@@ -88,7 +88,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "AZN",
-        "namePlural": "Azerbaijani manats"
+        "namePlural": "Azerbaijani manats",
     },
     "BAM": {
         "symbol": "KM",
@@ -97,7 +97,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "BAM",
-        "namePlural": "Bosnia-Herzegovina convertible marks"
+        "namePlural": "Bosnia-Herzegovina convertible marks",
     },
     "BDT": {
         "symbol": "Tk",
@@ -106,7 +106,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "BDT",
-        "namePlural": "Bangladeshi takas"
+        "namePlural": "Bangladeshi takas",
     },
     "BGN": {
         "symbol": "BGN",
@@ -115,7 +115,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "BGN",
-        "namePlural": "Bulgarian leva"
+        "namePlural": "Bulgarian leva",
     },
     "BHD": {
         "symbol": "BD",
@@ -124,7 +124,7 @@ export var currenciesInfo = {
         "decimalDigits": 3,
         "rounding": 0,
         "code": "BHD",
-        "namePlural": "Bahraini dinars"
+        "namePlural": "Bahraini dinars",
     },
     "BIF": {
         "symbol": "FBu",
@@ -133,7 +133,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "BIF",
-        "namePlural": "Burundian francs"
+        "namePlural": "Burundian francs",
     },
     "BND": {
         "symbol": "BN$",
@@ -142,7 +142,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "BND",
-        "namePlural": "Brunei dollars"
+        "namePlural": "Brunei dollars",
     },
     "BOB": {
         "symbol": "Bs",
@@ -151,7 +151,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "BOB",
-        "namePlural": "Bolivian bolivianos"
+        "namePlural": "Bolivian bolivianos",
     },
     "BRL": {
         "symbol": "R$",
@@ -160,7 +160,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "BRL",
-        "namePlural": "Brazilian reals"
+        "namePlural": "Brazilian reals",
     },
     "BWP": {
         "symbol": "BWP",
@@ -169,7 +169,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "BWP",
-        "namePlural": "Botswanan pulas"
+        "namePlural": "Botswanan pulas",
     },
     "BYR": {
         "symbol": "BYR",
@@ -178,7 +178,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "BYR",
-        "namePlural": "Belarusian rubles"
+        "namePlural": "Belarusian rubles",
     },
     "BZD": {
         "symbol": "BZ$",
@@ -187,7 +187,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "BZD",
-        "namePlural": "Belize dollars"
+        "namePlural": "Belize dollars",
     },
     "CDF": {
         "symbol": "CDF",
@@ -196,7 +196,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "CDF",
-        "namePlural": "Congolese francs"
+        "namePlural": "Congolese francs",
     },
     "CHF": {
         "symbol": "CHF",
@@ -205,7 +205,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0.05,
         "code": "CHF",
-        "namePlural": "Swiss francs"
+        "namePlural": "Swiss francs",
     },
     "CLP": {
         "symbol": "CL$",
@@ -214,7 +214,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "CLP",
-        "namePlural": "Chilean pesos"
+        "namePlural": "Chilean pesos",
     },
     "CNY": {
         "symbol": "CN¥",
@@ -223,7 +223,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "CNY",
-        "namePlural": "Chinese yuan"
+        "namePlural": "Chinese yuan",
     },
     "COP": {
         "symbol": "CO$",
@@ -232,7 +232,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "COP",
-        "namePlural": "Colombian pesos"
+        "namePlural": "Colombian pesos",
     },
     "CRC": {
         "symbol": "₡",
@@ -241,7 +241,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "CRC",
-        "namePlural": "Costa Rican colóns"
+        "namePlural": "Costa Rican colóns",
     },
     "CVE": {
         "symbol": "CV$",
@@ -250,7 +250,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "CVE",
-        "namePlural": "Cape Verdean escudos"
+        "namePlural": "Cape Verdean escudos",
     },
     "CZK": {
         "symbol": "Kč",
@@ -259,7 +259,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "CZK",
-        "namePlural": "Czech Republic korunas"
+        "namePlural": "Czech Republic korunas",
     },
     "DJF": {
         "symbol": "Fdj",
@@ -268,7 +268,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "DJF",
-        "namePlural": "Djiboutian francs"
+        "namePlural": "Djiboutian francs",
     },
     "DKK": {
         "symbol": "Dkr",
@@ -277,7 +277,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "DKK",
-        "namePlural": "Danish kroner"
+        "namePlural": "Danish kroner",
     },
     "DOP": {
         "symbol": "RD$",
@@ -286,7 +286,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "DOP",
-        "namePlural": "Dominican pesos"
+        "namePlural": "Dominican pesos",
     },
     "DZD": {
         "symbol": "DA",
@@ -295,7 +295,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "DZD",
-        "namePlural": "Algerian dinars"
+        "namePlural": "Algerian dinars",
     },
     "EEK": {
         "symbol": "Ekr",
@@ -304,7 +304,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "EEK",
-        "namePlural": "Estonian kroons"
+        "namePlural": "Estonian kroons",
     },
     "EGP": {
         "symbol": "EGP",
@@ -313,7 +313,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "EGP",
-        "namePlural": "Egyptian pounds"
+        "namePlural": "Egyptian pounds",
     },
     "ERN": {
         "symbol": "Nfk",
@@ -322,7 +322,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "ERN",
-        "namePlural": "Eritrean nakfas"
+        "namePlural": "Eritrean nakfas",
     },
     "ETB": {
         "symbol": "Br",
@@ -331,7 +331,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "ETB",
-        "namePlural": "Ethiopian birrs"
+        "namePlural": "Ethiopian birrs",
     },
     "GBP": {
         "symbol": "£",
@@ -340,7 +340,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "GBP",
-        "namePlural": "British pounds sterling"
+        "namePlural": "British pounds sterling",
     },
     "GEL": {
         "symbol": "GEL",
@@ -349,7 +349,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "GEL",
-        "namePlural": "Georgian laris"
+        "namePlural": "Georgian laris",
     },
     "GHS": {
         "symbol": "GH₵",
@@ -358,7 +358,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "GHS",
-        "namePlural": "Ghanaian cedis"
+        "namePlural": "Ghanaian cedis",
     },
     "GNF": {
         "symbol": "FG",
@@ -367,7 +367,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "GNF",
-        "namePlural": "Guinean francs"
+        "namePlural": "Guinean francs",
     },
     "GTQ": {
         "symbol": "GTQ",
@@ -376,7 +376,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "GTQ",
-        "namePlural": "Guatemalan quetzals"
+        "namePlural": "Guatemalan quetzals",
     },
     "HKD": {
         "symbol": "HK$",
@@ -385,7 +385,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "HKD",
-        "namePlural": "Hong Kong dollars"
+        "namePlural": "Hong Kong dollars",
     },
     "HNL": {
         "symbol": "HNL",
@@ -394,7 +394,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "HNL",
-        "namePlural": "Honduran lempiras"
+        "namePlural": "Honduran lempiras",
     },
     "HRK": {
         "symbol": "kn",
@@ -403,7 +403,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "HRK",
-        "namePlural": "Croatian kunas"
+        "namePlural": "Croatian kunas",
     },
     "HUF": {
         "symbol": "Ft",
@@ -412,7 +412,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "HUF",
-        "namePlural": "Hungarian forints"
+        "namePlural": "Hungarian forints",
     },
     "IDR": {
         "symbol": "Rp",
@@ -421,7 +421,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "IDR",
-        "namePlural": "Indonesian rupiahs"
+        "namePlural": "Indonesian rupiahs",
     },
     "ILS": {
         "symbol": "₪",
@@ -430,7 +430,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "ILS",
-        "namePlural": "Israeli new sheqels"
+        "namePlural": "Israeli new sheqels",
     },
     "INR": {
         "symbol": "Rs",
@@ -439,7 +439,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "INR",
-        "namePlural": "Indian rupees"
+        "namePlural": "Indian rupees",
     },
     "IQD": {
         "symbol": "IQD",
@@ -448,7 +448,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "IQD",
-        "namePlural": "Iraqi dinars"
+        "namePlural": "Iraqi dinars",
     },
     "IRR": {
         "symbol": "IRR",
@@ -457,7 +457,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "IRR",
-        "namePlural": "Iranian rials"
+        "namePlural": "Iranian rials",
     },
     "ISK": {
         "symbol": "Ikr",
@@ -466,7 +466,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "ISK",
-        "namePlural": "Icelandic krónur"
+        "namePlural": "Icelandic krónur",
     },
     "JMD": {
         "symbol": "J$",
@@ -475,7 +475,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "JMD",
-        "namePlural": "Jamaican dollars"
+        "namePlural": "Jamaican dollars",
     },
     "JOD": {
         "symbol": "JD",
@@ -484,7 +484,7 @@ export var currenciesInfo = {
         "decimalDigits": 3,
         "rounding": 0,
         "code": "JOD",
-        "namePlural": "Jordanian dinars"
+        "namePlural": "Jordanian dinars",
     },
     "JPY": {
         "symbol": "¥",
@@ -493,7 +493,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "JPY",
-        "namePlural": "Japanese yen"
+        "namePlural": "Japanese yen",
     },
     "KES": {
         "symbol": "Ksh",
@@ -502,7 +502,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "KES",
-        "namePlural": "Kenyan shillings"
+        "namePlural": "Kenyan shillings",
     },
     "KHR": {
         "symbol": "KHR",
@@ -511,7 +511,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "KHR",
-        "namePlural": "Cambodian riels"
+        "namePlural": "Cambodian riels",
     },
     "KMF": {
         "symbol": "CF",
@@ -520,7 +520,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "KMF",
-        "namePlural": "Comorian francs"
+        "namePlural": "Comorian francs",
     },
     "KRW": {
         "symbol": "₩",
@@ -529,7 +529,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "KRW",
-        "namePlural": "South Korean won"
+        "namePlural": "South Korean won",
     },
     "KWD": {
         "symbol": "KD",
@@ -538,7 +538,7 @@ export var currenciesInfo = {
         "decimalDigits": 3,
         "rounding": 0,
         "code": "KWD",
-        "namePlural": "Kuwaiti dinars"
+        "namePlural": "Kuwaiti dinars",
     },
     "KZT": {
         "symbol": "KZT",
@@ -547,7 +547,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "KZT",
-        "namePlural": "Kazakhstani tenges"
+        "namePlural": "Kazakhstani tenges",
     },
     "LBP": {
         "symbol": "LB£",
@@ -556,7 +556,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "LBP",
-        "namePlural": "Lebanese pounds"
+        "namePlural": "Lebanese pounds",
     },
     "LKR": {
         "symbol": "SLRs",
@@ -565,7 +565,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "LKR",
-        "namePlural": "Sri Lankan rupees"
+        "namePlural": "Sri Lankan rupees",
     },
     "LTL": {
         "symbol": "Lt",
@@ -574,7 +574,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "LTL",
-        "namePlural": "Lithuanian litai"
+        "namePlural": "Lithuanian litai",
     },
     "LVL": {
         "symbol": "Ls",
@@ -583,7 +583,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "LVL",
-        "namePlural": "Latvian lati"
+        "namePlural": "Latvian lati",
     },
     "LYD": {
         "symbol": "LD",
@@ -592,7 +592,7 @@ export var currenciesInfo = {
         "decimalDigits": 3,
         "rounding": 0,
         "code": "LYD",
-        "namePlural": "Libyan dinars"
+        "namePlural": "Libyan dinars",
     },
     "MAD": {
         "symbol": "MAD",
@@ -601,7 +601,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "MAD",
-        "namePlural": "Moroccan dirhams"
+        "namePlural": "Moroccan dirhams",
     },
     "MDL": {
         "symbol": "MDL",
@@ -610,7 +610,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "MDL",
-        "namePlural": "Moldovan lei"
+        "namePlural": "Moldovan lei",
     },
     "MGA": {
         "symbol": "MGA",
@@ -619,7 +619,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "MGA",
-        "namePlural": "Malagasy Ariaries"
+        "namePlural": "Malagasy Ariaries",
     },
     "MKD": {
         "symbol": "MKD",
@@ -628,7 +628,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "MKD",
-        "namePlural": "Macedonian denari"
+        "namePlural": "Macedonian denari",
     },
     "MMK": {
         "symbol": "MMK",
@@ -637,7 +637,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "MMK",
-        "namePlural": "Myanma kyats"
+        "namePlural": "Myanma kyats",
     },
     "MOP": {
         "symbol": "MOP$",
@@ -646,7 +646,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "MOP",
-        "namePlural": "Macanese patacas"
+        "namePlural": "Macanese patacas",
     },
     "MUR": {
         "symbol": "MURs",
@@ -655,7 +655,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "MUR",
-        "namePlural": "Mauritian rupees"
+        "namePlural": "Mauritian rupees",
     },
     "MXN": {
         "symbol": "MX$",
@@ -664,7 +664,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "MXN",
-        "namePlural": "Mexican pesos"
+        "namePlural": "Mexican pesos",
     },
     "MYR": {
         "symbol": "RM",
@@ -673,7 +673,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "MYR",
-        "namePlural": "Malaysian ringgits"
+        "namePlural": "Malaysian ringgits",
     },
     "MZN": {
         "symbol": "MTn",
@@ -682,7 +682,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "MZN",
-        "namePlural": "Mozambican meticals"
+        "namePlural": "Mozambican meticals",
     },
     "NAD": {
         "symbol": "N$",
@@ -691,7 +691,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "NAD",
-        "namePlural": "Namibian dollars"
+        "namePlural": "Namibian dollars",
     },
     "NGN": {
         "symbol": "₦",
@@ -700,7 +700,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "NGN",
-        "namePlural": "Nigerian nairas"
+        "namePlural": "Nigerian nairas",
     },
     "NIO": {
         "symbol": "C$",
@@ -709,7 +709,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "NIO",
-        "namePlural": "Nicaraguan córdobas"
+        "namePlural": "Nicaraguan córdobas",
     },
     "NOK": {
         "symbol": "Nkr",
@@ -718,7 +718,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "NOK",
-        "namePlural": "Norwegian kroner"
+        "namePlural": "Norwegian kroner",
     },
     "NPR": {
         "symbol": "NPRs",
@@ -727,7 +727,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "NPR",
-        "namePlural": "Nepalese rupees"
+        "namePlural": "Nepalese rupees",
     },
     "NZD": {
         "symbol": "NZ$",
@@ -736,7 +736,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "NZD",
-        "namePlural": "New Zealand dollars"
+        "namePlural": "New Zealand dollars",
     },
     "OMR": {
         "symbol": "OMR",
@@ -745,7 +745,7 @@ export var currenciesInfo = {
         "decimalDigits": 3,
         "rounding": 0,
         "code": "OMR",
-        "namePlural": "Omani rials"
+        "namePlural": "Omani rials",
     },
     "PAB": {
         "symbol": "B/.",
@@ -754,7 +754,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "PAB",
-        "namePlural": "Panamanian balboas"
+        "namePlural": "Panamanian balboas",
     },
     "PEN": {
         "symbol": "S/.",
@@ -763,7 +763,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "PEN",
-        "namePlural": "Peruvian nuevos soles"
+        "namePlural": "Peruvian nuevos soles",
     },
     "PHP": {
         "symbol": "₱",
@@ -772,7 +772,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "PHP",
-        "namePlural": "Philippine pesos"
+        "namePlural": "Philippine pesos",
     },
     "PKR": {
         "symbol": "PKRs",
@@ -781,7 +781,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "PKR",
-        "namePlural": "Pakistani rupees"
+        "namePlural": "Pakistani rupees",
     },
     "PLN": {
         "symbol": "zł",
@@ -790,7 +790,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "PLN",
-        "namePlural": "Polish zlotys"
+        "namePlural": "Polish zlotys",
     },
     "PYG": {
         "symbol": "₲",
@@ -799,7 +799,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "PYG",
-        "namePlural": "Paraguayan guaranis"
+        "namePlural": "Paraguayan guaranis",
     },
     "QAR": {
         "symbol": "QR",
@@ -808,7 +808,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "QAR",
-        "namePlural": "Qatari rials"
+        "namePlural": "Qatari rials",
     },
     "RON": {
         "symbol": "RON",
@@ -817,7 +817,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "RON",
-        "namePlural": "Romanian lei"
+        "namePlural": "Romanian lei",
     },
     "RSD": {
         "symbol": "din.",
@@ -826,7 +826,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "RSD",
-        "namePlural": "Serbian dinars"
+        "namePlural": "Serbian dinars",
     },
     "RUB": {
         "symbol": "RUB",
@@ -835,7 +835,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "RUB",
-        "namePlural": "Russian rubles"
+        "namePlural": "Russian rubles",
     },
     "RWF": {
         "symbol": "RWF",
@@ -844,7 +844,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "RWF",
-        "namePlural": "Rwandan francs"
+        "namePlural": "Rwandan francs",
     },
     "SAR": {
         "symbol": "SR",
@@ -853,7 +853,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "SAR",
-        "namePlural": "Saudi riyals"
+        "namePlural": "Saudi riyals",
     },
     "SDG": {
         "symbol": "SDG",
@@ -862,7 +862,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "SDG",
-        "namePlural": "Sudanese pounds"
+        "namePlural": "Sudanese pounds",
     },
     "SEK": {
         "symbol": "Skr",
@@ -871,7 +871,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "SEK",
-        "namePlural": "Swedish kronor"
+        "namePlural": "Swedish kronor",
     },
     "SGD": {
         "symbol": "S$",
@@ -880,7 +880,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "SGD",
-        "namePlural": "Singapore dollars"
+        "namePlural": "Singapore dollars",
     },
     "SOS": {
         "symbol": "Ssh",
@@ -889,7 +889,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "SOS",
-        "namePlural": "Somali shillings"
+        "namePlural": "Somali shillings",
     },
     "SYP": {
         "symbol": "SY£",
@@ -898,7 +898,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "SYP",
-        "namePlural": "Syrian pounds"
+        "namePlural": "Syrian pounds",
     },
     "THB": {
         "symbol": "฿",
@@ -907,7 +907,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "THB",
-        "namePlural": "Thai baht"
+        "namePlural": "Thai baht",
     },
     "TND": {
         "symbol": "DT",
@@ -916,7 +916,7 @@ export var currenciesInfo = {
         "decimalDigits": 3,
         "rounding": 0,
         "code": "TND",
-        "namePlural": "Tunisian dinars"
+        "namePlural": "Tunisian dinars",
     },
     "TOP": {
         "symbol": "T$",
@@ -925,7 +925,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "TOP",
-        "namePlural": "Tongan paʻanga"
+        "namePlural": "Tongan paʻanga",
     },
     "TRY": {
         "symbol": "TL",
@@ -934,7 +934,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "TRY",
-        "namePlural": "Turkish Lira"
+        "namePlural": "Turkish Lira",
     },
     "TTD": {
         "symbol": "TT$",
@@ -943,7 +943,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "TTD",
-        "namePlural": "Trinidad and Tobago dollars"
+        "namePlural": "Trinidad and Tobago dollars",
     },
     "TWD": {
         "symbol": "NT$",
@@ -952,7 +952,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "TWD",
-        "namePlural": "New Taiwan dollars"
+        "namePlural": "New Taiwan dollars",
     },
     "TZS": {
         "symbol": "TSh",
@@ -961,7 +961,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "TZS",
-        "namePlural": "Tanzanian shillings"
+        "namePlural": "Tanzanian shillings",
     },
     "UAH": {
         "symbol": "₴",
@@ -970,7 +970,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "UAH",
-        "namePlural": "Ukrainian hryvnias"
+        "namePlural": "Ukrainian hryvnias",
     },
     "UGX": {
         "symbol": "USh",
@@ -979,7 +979,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "UGX",
-        "namePlural": "Ugandan shillings"
+        "namePlural": "Ugandan shillings",
     },
     "UYU": {
         "symbol": "$U",
@@ -988,7 +988,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "UYU",
-        "namePlural": "Uruguayan pesos"
+        "namePlural": "Uruguayan pesos",
     },
     "UZS": {
         "symbol": "UZS",
@@ -997,7 +997,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "UZS",
-        "namePlural": "Uzbekistan som"
+        "namePlural": "Uzbekistan som",
     },
     "VEF": {
         "symbol": "Bs.F.",
@@ -1006,7 +1006,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "VEF",
-        "namePlural": "Venezuelan bolívars"
+        "namePlural": "Venezuelan bolívars",
     },
     "VND": {
         "symbol": "₫",
@@ -1015,7 +1015,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "VND",
-        "namePlural": "Vietnamese dong"
+        "namePlural": "Vietnamese dong",
     },
     "XAF": {
         "symbol": "FCFA",
@@ -1024,7 +1024,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "XAF",
-        "namePlural": "CFA francs BEAC"
+        "namePlural": "CFA francs BEAC",
     },
     "XOF": {
         "symbol": "CFA",
@@ -1033,7 +1033,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "XOF",
-        "namePlural": "CFA francs BCEAO"
+        "namePlural": "CFA francs BCEAO",
     },
     "YER": {
         "symbol": "YR",
@@ -1042,7 +1042,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "YER",
-        "namePlural": "Yemeni rials"
+        "namePlural": "Yemeni rials",
     },
     "ZAR": {
         "symbol": "R",
@@ -1051,7 +1051,7 @@ export var currenciesInfo = {
         "decimalDigits": 2,
         "rounding": 0,
         "code": "ZAR",
-        "namePlural": "South African rand"
+        "namePlural": "South African rand",
     },
     "ZMK": {
         "symbol": "ZK",
@@ -1060,7 +1060,7 @@ export var currenciesInfo = {
         "decimalDigits": 0,
         "rounding": 0,
         "code": "ZMK",
-        "namePlural": "Zambian kwachas"
-    }
+        "namePlural": "Zambian kwachas",
+    },
 };
 //# sourceMappingURL=currenciesInfo.js.map

@@ -8,8 +8,8 @@ export var countriesInfo = {
         "capital": "Andorra la Vella",
         "currency": "EUR",
         "languages": [
-            "ca"
-        ]
+            "ca",
+        ],
     },
     "AE": {
         "name": "United Arab Emirates",
@@ -19,8 +19,8 @@ export var countriesInfo = {
         "capital": "Abu Dhabi",
         "currency": "AED",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "AF": {
         "name": "Afghanistan",
@@ -32,8 +32,8 @@ export var countriesInfo = {
         "languages": [
             "ps",
             "uz",
-            "tk"
-        ]
+            "tk",
+        ],
     },
     "AG": {
         "name": "Antigua and Barbuda",
@@ -43,8 +43,8 @@ export var countriesInfo = {
         "capital": "Saint John's",
         "currency": "XCD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "AI": {
         "name": "Anguilla",
@@ -54,8 +54,8 @@ export var countriesInfo = {
         "capital": "The Valley",
         "currency": "XCD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "AL": {
         "name": "Albania",
@@ -65,8 +65,8 @@ export var countriesInfo = {
         "capital": "Tirana",
         "currency": "ALL",
         "languages": [
-            "sq"
-        ]
+            "sq",
+        ],
     },
     "AM": {
         "name": "Armenia",
@@ -77,8 +77,8 @@ export var countriesInfo = {
         "currency": "AMD",
         "languages": [
             "hy",
-            "ru"
-        ]
+            "ru",
+        ],
     },
     "AO": {
         "name": "Angola",
@@ -88,8 +88,8 @@ export var countriesInfo = {
         "capital": "Luanda",
         "currency": "AOA",
         "languages": [
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "AQ": {
         "name": "Antarctica",
@@ -98,7 +98,7 @@ export var countriesInfo = {
         "continent": "AN",
         "capital": "",
         "currency": "",
-        "languages": []
+        "languages": [],
     },
     "AR": {
         "name": "Argentina",
@@ -109,8 +109,8 @@ export var countriesInfo = {
         "currency": "ARS",
         "languages": [
             "es",
-            "gn"
-        ]
+            "gn",
+        ],
     },
     "AS": {
         "name": "American Samoa",
@@ -121,8 +121,8 @@ export var countriesInfo = {
         "currency": "USD",
         "languages": [
             "en",
-            "sm"
-        ]
+            "sm",
+        ],
     },
     "AT": {
         "name": "Austria",
@@ -132,8 +132,8 @@ export var countriesInfo = {
         "capital": "Vienna",
         "currency": "EUR",
         "languages": [
-            "de"
-        ]
+            "de",
+        ],
     },
     "AU": {
         "name": "Australia",
@@ -143,8 +143,8 @@ export var countriesInfo = {
         "capital": "Canberra",
         "currency": "AUD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "AW": {
         "name": "Aruba",
@@ -155,8 +155,8 @@ export var countriesInfo = {
         "currency": "AWG",
         "languages": [
             "nl",
-            "pa"
-        ]
+            "pa",
+        ],
     },
     "AX": {
         "name": "Åland",
@@ -166,8 +166,8 @@ export var countriesInfo = {
         "capital": "Mariehamn",
         "currency": "EUR",
         "languages": [
-            "sv"
-        ]
+            "sv",
+        ],
     },
     "AZ": {
         "name": "Azerbaijan",
@@ -177,8 +177,8 @@ export var countriesInfo = {
         "capital": "Baku",
         "currency": "AZN",
         "languages": [
-            "az"
-        ]
+            "az",
+        ],
     },
     "BA": {
         "name": "Bosnia and Herzegovina",
@@ -190,8 +190,8 @@ export var countriesInfo = {
         "languages": [
             "bs",
             "hr",
-            "sr"
-        ]
+            "sr",
+        ],
     },
     "BB": {
         "name": "Barbados",
@@ -201,8 +201,8 @@ export var countriesInfo = {
         "capital": "Bridgetown",
         "currency": "BBD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "BD": {
         "name": "Bangladesh",
@@ -212,8 +212,8 @@ export var countriesInfo = {
         "capital": "Dhaka",
         "currency": "BDT",
         "languages": [
-            "bn"
-        ]
+            "bn",
+        ],
     },
     "BE": {
         "name": "Belgium",
@@ -225,8 +225,8 @@ export var countriesInfo = {
         "languages": [
             "nl",
             "fr",
-            "de"
-        ]
+            "de",
+        ],
     },
     "BF": {
         "name": "Burkina Faso",
@@ -237,8 +237,8 @@ export var countriesInfo = {
         "currency": "XOF",
         "languages": [
             "fr",
-            "ff"
-        ]
+            "ff",
+        ],
     },
     "BG": {
         "name": "Bulgaria",
@@ -248,8 +248,8 @@ export var countriesInfo = {
         "capital": "Sofia",
         "currency": "BGN",
         "languages": [
-            "bg"
-        ]
+            "bg",
+        ],
     },
     "BH": {
         "name": "Bahrain",
@@ -259,8 +259,8 @@ export var countriesInfo = {
         "capital": "Manama",
         "currency": "BHD",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "BI": {
         "name": "Burundi",
@@ -271,8 +271,8 @@ export var countriesInfo = {
         "currency": "BIF",
         "languages": [
             "fr",
-            "rn"
-        ]
+            "rn",
+        ],
     },
     "BJ": {
         "name": "Benin",
@@ -282,8 +282,8 @@ export var countriesInfo = {
         "capital": "Porto-Novo",
         "currency": "XOF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "BL": {
         "name": "Saint Barthélemy",
@@ -293,8 +293,8 @@ export var countriesInfo = {
         "capital": "Gustavia",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "BM": {
         "name": "Bermuda",
@@ -304,8 +304,8 @@ export var countriesInfo = {
         "capital": "Hamilton",
         "currency": "BMD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "BN": {
         "name": "Brunei",
@@ -315,8 +315,8 @@ export var countriesInfo = {
         "capital": "Bandar Seri Begawan",
         "currency": "BND",
         "languages": [
-            "ms"
-        ]
+            "ms",
+        ],
     },
     "BO": {
         "name": "Bolivia",
@@ -328,8 +328,8 @@ export var countriesInfo = {
         "languages": [
             "es",
             "ay",
-            "qu"
-        ]
+            "qu",
+        ],
     },
     "BQ": {
         "name": "Bonaire",
@@ -339,8 +339,8 @@ export var countriesInfo = {
         "capital": "Kralendijk",
         "currency": "USD",
         "languages": [
-            "nl"
-        ]
+            "nl",
+        ],
     },
     "BR": {
         "name": "Brazil",
@@ -350,8 +350,8 @@ export var countriesInfo = {
         "capital": "Brasília",
         "currency": "BRL",
         "languages": [
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "BS": {
         "name": "Bahamas",
@@ -361,8 +361,8 @@ export var countriesInfo = {
         "capital": "Nassau",
         "currency": "BSD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "BT": {
         "name": "Bhutan",
@@ -372,8 +372,8 @@ export var countriesInfo = {
         "capital": "Thimphu",
         "currency": "BTN,INR",
         "languages": [
-            "dz"
-        ]
+            "dz",
+        ],
     },
     "BV": {
         "name": "Bouvet Island",
@@ -382,7 +382,7 @@ export var countriesInfo = {
         "continent": "AN",
         "capital": "",
         "currency": "NOK",
-        "languages": []
+        "languages": [],
     },
     "BW": {
         "name": "Botswana",
@@ -393,8 +393,8 @@ export var countriesInfo = {
         "currency": "BWP",
         "languages": [
             "en",
-            "tn"
-        ]
+            "tn",
+        ],
     },
     "BY": {
         "name": "Belarus",
@@ -405,8 +405,8 @@ export var countriesInfo = {
         "currency": "BYR",
         "languages": [
             "be",
-            "ru"
-        ]
+            "ru",
+        ],
     },
     "BZ": {
         "name": "Belize",
@@ -417,8 +417,8 @@ export var countriesInfo = {
         "currency": "BZD",
         "languages": [
             "en",
-            "es"
-        ]
+            "es",
+        ],
     },
     "CA": {
         "name": "Canada",
@@ -429,8 +429,8 @@ export var countriesInfo = {
         "currency": "CAD",
         "languages": [
             "en",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "CC": {
         "name": "Cocos [Keeling] Islands",
@@ -440,8 +440,8 @@ export var countriesInfo = {
         "capital": "West Island",
         "currency": "AUD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "CD": {
         "name": "Democratic Republic of the Congo",
@@ -455,8 +455,8 @@ export var countriesInfo = {
             "ln",
             "kg",
             "sw",
-            "lu"
-        ]
+            "lu",
+        ],
     },
     "CF": {
         "name": "Central African Republic",
@@ -467,8 +467,8 @@ export var countriesInfo = {
         "currency": "XAF",
         "languages": [
             "fr",
-            "sg"
-        ]
+            "sg",
+        ],
     },
     "CG": {
         "name": "Republic of the Congo",
@@ -479,8 +479,8 @@ export var countriesInfo = {
         "currency": "XAF",
         "languages": [
             "fr",
-            "ln"
-        ]
+            "ln",
+        ],
     },
     "CH": {
         "name": "Switzerland",
@@ -492,8 +492,8 @@ export var countriesInfo = {
         "languages": [
             "de",
             "fr",
-            "it"
-        ]
+            "it",
+        ],
     },
     "CI": {
         "name": "Ivory Coast",
@@ -503,8 +503,8 @@ export var countriesInfo = {
         "capital": "Yamoussoukro",
         "currency": "XOF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "CK": {
         "name": "Cook Islands",
@@ -514,8 +514,8 @@ export var countriesInfo = {
         "capital": "Avarua",
         "currency": "NZD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "CL": {
         "name": "Chile",
@@ -525,8 +525,8 @@ export var countriesInfo = {
         "capital": "Santiago",
         "currency": "CLF,CLP",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "CM": {
         "name": "Cameroon",
@@ -537,8 +537,8 @@ export var countriesInfo = {
         "currency": "XAF",
         "languages": [
             "en",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "CN": {
         "name": "China",
@@ -548,8 +548,8 @@ export var countriesInfo = {
         "capital": "Beijing",
         "currency": "CNY",
         "languages": [
-            "zh"
-        ]
+            "zh",
+        ],
     },
     "CO": {
         "name": "Colombia",
@@ -559,8 +559,8 @@ export var countriesInfo = {
         "capital": "Bogotá",
         "currency": "COP",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "CR": {
         "name": "Costa Rica",
@@ -570,8 +570,8 @@ export var countriesInfo = {
         "capital": "San José",
         "currency": "CRC",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "CU": {
         "name": "Cuba",
@@ -581,8 +581,8 @@ export var countriesInfo = {
         "capital": "Havana",
         "currency": "CUC,CUP",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "CV": {
         "name": "Cape Verde",
@@ -592,8 +592,8 @@ export var countriesInfo = {
         "capital": "Praia",
         "currency": "CVE",
         "languages": [
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "CW": {
         "name": "Curacao",
@@ -605,8 +605,8 @@ export var countriesInfo = {
         "languages": [
             "nl",
             "pa",
-            "en"
-        ]
+            "en",
+        ],
     },
     "CX": {
         "name": "Christmas Island",
@@ -616,8 +616,8 @@ export var countriesInfo = {
         "capital": "Flying Fish Cove",
         "currency": "AUD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "CY": {
         "name": "Cyprus",
@@ -629,8 +629,8 @@ export var countriesInfo = {
         "languages": [
             "el",
             "tr",
-            "hy"
-        ]
+            "hy",
+        ],
     },
     "CZ": {
         "name": "Czech Republic",
@@ -641,8 +641,8 @@ export var countriesInfo = {
         "currency": "CZK",
         "languages": [
             "cs",
-            "sk"
-        ]
+            "sk",
+        ],
     },
     "DE": {
         "name": "Germany",
@@ -652,8 +652,8 @@ export var countriesInfo = {
         "capital": "Berlin",
         "currency": "EUR",
         "languages": [
-            "de"
-        ]
+            "de",
+        ],
     },
     "DJ": {
         "name": "Djibouti",
@@ -664,8 +664,8 @@ export var countriesInfo = {
         "currency": "DJF",
         "languages": [
             "fr",
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "DK": {
         "name": "Denmark",
@@ -675,8 +675,8 @@ export var countriesInfo = {
         "capital": "Copenhagen",
         "currency": "DKK",
         "languages": [
-            "da"
-        ]
+            "da",
+        ],
     },
     "DM": {
         "name": "Dominica",
@@ -686,8 +686,8 @@ export var countriesInfo = {
         "capital": "Roseau",
         "currency": "XCD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "DO": {
         "name": "Dominican Republic",
@@ -697,8 +697,8 @@ export var countriesInfo = {
         "capital": "Santo Domingo",
         "currency": "DOP",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "DZ": {
         "name": "Algeria",
@@ -708,8 +708,8 @@ export var countriesInfo = {
         "capital": "Algiers",
         "currency": "DZD",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "EC": {
         "name": "Ecuador",
@@ -719,8 +719,8 @@ export var countriesInfo = {
         "capital": "Quito",
         "currency": "USD",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "EE": {
         "name": "Estonia",
@@ -730,8 +730,8 @@ export var countriesInfo = {
         "capital": "Tallinn",
         "currency": "EUR",
         "languages": [
-            "et"
-        ]
+            "et",
+        ],
     },
     "EG": {
         "name": "Egypt",
@@ -741,8 +741,8 @@ export var countriesInfo = {
         "capital": "Cairo",
         "currency": "EGP",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "EH": {
         "name": "Western Sahara",
@@ -752,8 +752,8 @@ export var countriesInfo = {
         "capital": "El Aaiún",
         "currency": "MAD,DZD,MRO",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "ER": {
         "name": "Eritrea",
@@ -765,8 +765,8 @@ export var countriesInfo = {
         "languages": [
             "ti",
             "ar",
-            "en"
-        ]
+            "en",
+        ],
     },
     "ES": {
         "name": "Spain",
@@ -780,8 +780,8 @@ export var countriesInfo = {
             "eu",
             "ca",
             "gl",
-            "oc"
-        ]
+            "oc",
+        ],
     },
     "ET": {
         "name": "Ethiopia",
@@ -791,8 +791,8 @@ export var countriesInfo = {
         "capital": "Addis Ababa",
         "currency": "ETB",
         "languages": [
-            "am"
-        ]
+            "am",
+        ],
     },
     "FI": {
         "name": "Finland",
@@ -803,8 +803,8 @@ export var countriesInfo = {
         "currency": "EUR",
         "languages": [
             "fi",
-            "sv"
-        ]
+            "sv",
+        ],
     },
     "FJ": {
         "name": "Fiji",
@@ -817,8 +817,8 @@ export var countriesInfo = {
             "en",
             "fj",
             "hi",
-            "ur"
-        ]
+            "ur",
+        ],
     },
     "FK": {
         "name": "Falkland Islands",
@@ -828,8 +828,8 @@ export var countriesInfo = {
         "capital": "Stanley",
         "currency": "FKP",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "FM": {
         "name": "Micronesia",
@@ -839,8 +839,8 @@ export var countriesInfo = {
         "capital": "Palikir",
         "currency": "USD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "FO": {
         "name": "Faroe Islands",
@@ -850,8 +850,8 @@ export var countriesInfo = {
         "capital": "Tórshavn",
         "currency": "DKK",
         "languages": [
-            "fo"
-        ]
+            "fo",
+        ],
     },
     "FR": {
         "name": "France",
@@ -861,8 +861,8 @@ export var countriesInfo = {
         "capital": "Paris",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "GA": {
         "name": "Gabon",
@@ -872,8 +872,8 @@ export var countriesInfo = {
         "capital": "Libreville",
         "currency": "XAF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "GB": {
         "name": "United Kingdom",
@@ -883,8 +883,8 @@ export var countriesInfo = {
         "capital": "London",
         "currency": "GBP",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "GD": {
         "name": "Grenada",
@@ -894,8 +894,8 @@ export var countriesInfo = {
         "capital": "St. George's",
         "currency": "XCD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "GE": {
         "name": "Georgia",
@@ -905,8 +905,8 @@ export var countriesInfo = {
         "capital": "Tbilisi",
         "currency": "GEL",
         "languages": [
-            "ka"
-        ]
+            "ka",
+        ],
     },
     "GF": {
         "name": "French Guiana",
@@ -916,8 +916,8 @@ export var countriesInfo = {
         "capital": "Cayenne",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "GG": {
         "name": "Guernsey",
@@ -928,8 +928,8 @@ export var countriesInfo = {
         "currency": "GBP",
         "languages": [
             "en",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "GH": {
         "name": "Ghana",
@@ -939,8 +939,8 @@ export var countriesInfo = {
         "capital": "Accra",
         "currency": "GHS",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "GI": {
         "name": "Gibraltar",
@@ -950,8 +950,8 @@ export var countriesInfo = {
         "capital": "Gibraltar",
         "currency": "GIP",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "GL": {
         "name": "Greenland",
@@ -961,8 +961,8 @@ export var countriesInfo = {
         "capital": "Nuuk",
         "currency": "DKK",
         "languages": [
-            "kl"
-        ]
+            "kl",
+        ],
     },
     "GM": {
         "name": "Gambia",
@@ -972,8 +972,8 @@ export var countriesInfo = {
         "capital": "Banjul",
         "currency": "GMD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "GN": {
         "name": "Guinea",
@@ -984,8 +984,8 @@ export var countriesInfo = {
         "currency": "GNF",
         "languages": [
             "fr",
-            "ff"
-        ]
+            "ff",
+        ],
     },
     "GP": {
         "name": "Guadeloupe",
@@ -995,8 +995,8 @@ export var countriesInfo = {
         "capital": "Basse-Terre",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "GQ": {
         "name": "Equatorial Guinea",
@@ -1007,8 +1007,8 @@ export var countriesInfo = {
         "currency": "XAF",
         "languages": [
             "es",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "GR": {
         "name": "Greece",
@@ -1018,8 +1018,8 @@ export var countriesInfo = {
         "capital": "Athens",
         "currency": "EUR",
         "languages": [
-            "el"
-        ]
+            "el",
+        ],
     },
     "GS": {
         "name": "South Georgia and the South Sandwich Islands",
@@ -1029,8 +1029,8 @@ export var countriesInfo = {
         "capital": "King Edward Point",
         "currency": "GBP",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "GT": {
         "name": "Guatemala",
@@ -1040,8 +1040,8 @@ export var countriesInfo = {
         "capital": "Guatemala City",
         "currency": "GTQ",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "GU": {
         "name": "Guam",
@@ -1053,8 +1053,8 @@ export var countriesInfo = {
         "languages": [
             "en",
             "ch",
-            "es"
-        ]
+            "es",
+        ],
     },
     "GW": {
         "name": "Guinea-Bissau",
@@ -1064,8 +1064,8 @@ export var countriesInfo = {
         "capital": "Bissau",
         "currency": "XOF",
         "languages": [
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "GY": {
         "name": "Guyana",
@@ -1075,8 +1075,8 @@ export var countriesInfo = {
         "capital": "Georgetown",
         "currency": "GYD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "HK": {
         "name": "Hong Kong",
@@ -1087,8 +1087,8 @@ export var countriesInfo = {
         "currency": "HKD",
         "languages": [
             "zh",
-            "en"
-        ]
+            "en",
+        ],
     },
     "HM": {
         "name": "Heard Island and McDonald Islands",
@@ -1098,8 +1098,8 @@ export var countriesInfo = {
         "capital": "",
         "currency": "AUD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "HN": {
         "name": "Honduras",
@@ -1109,8 +1109,8 @@ export var countriesInfo = {
         "capital": "Tegucigalpa",
         "currency": "HNL",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "HR": {
         "name": "Croatia",
@@ -1120,8 +1120,8 @@ export var countriesInfo = {
         "capital": "Zagreb",
         "currency": "HRK",
         "languages": [
-            "hr"
-        ]
+            "hr",
+        ],
     },
     "HT": {
         "name": "Haiti",
@@ -1132,8 +1132,8 @@ export var countriesInfo = {
         "currency": "HTG,USD",
         "languages": [
             "fr",
-            "ht"
-        ]
+            "ht",
+        ],
     },
     "HU": {
         "name": "Hungary",
@@ -1143,8 +1143,8 @@ export var countriesInfo = {
         "capital": "Budapest",
         "currency": "HUF",
         "languages": [
-            "hu"
-        ]
+            "hu",
+        ],
     },
     "ID": {
         "name": "Indonesia",
@@ -1154,8 +1154,8 @@ export var countriesInfo = {
         "capital": "Jakarta",
         "currency": "IDR",
         "languages": [
-            "id"
-        ]
+            "id",
+        ],
     },
     "IE": {
         "name": "Ireland",
@@ -1166,8 +1166,8 @@ export var countriesInfo = {
         "currency": "EUR",
         "languages": [
             "ga",
-            "en"
-        ]
+            "en",
+        ],
     },
     "IL": {
         "name": "Israel",
@@ -1178,8 +1178,8 @@ export var countriesInfo = {
         "currency": "ILS",
         "languages": [
             "he",
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "IM": {
         "name": "Isle of Man",
@@ -1190,8 +1190,8 @@ export var countriesInfo = {
         "currency": "GBP",
         "languages": [
             "en",
-            "gv"
-        ]
+            "gv",
+        ],
     },
     "IN": {
         "name": "India",
@@ -1202,8 +1202,8 @@ export var countriesInfo = {
         "currency": "INR",
         "languages": [
             "hi",
-            "en"
-        ]
+            "en",
+        ],
     },
     "IO": {
         "name": "British Indian Ocean Territory",
@@ -1213,8 +1213,8 @@ export var countriesInfo = {
         "capital": "Diego Garcia",
         "currency": "USD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "IQ": {
         "name": "Iraq",
@@ -1225,8 +1225,8 @@ export var countriesInfo = {
         "currency": "IQD",
         "languages": [
             "ar",
-            "ku"
-        ]
+            "ku",
+        ],
     },
     "IR": {
         "name": "Iran",
@@ -1236,8 +1236,8 @@ export var countriesInfo = {
         "capital": "Tehran",
         "currency": "IRR",
         "languages": [
-            "fa"
-        ]
+            "fa",
+        ],
     },
     "IS": {
         "name": "Iceland",
@@ -1247,8 +1247,8 @@ export var countriesInfo = {
         "capital": "Reykjavik",
         "currency": "ISK",
         "languages": [
-            "is"
-        ]
+            "is",
+        ],
     },
     "IT": {
         "name": "Italy",
@@ -1258,8 +1258,8 @@ export var countriesInfo = {
         "capital": "Rome",
         "currency": "EUR",
         "languages": [
-            "it"
-        ]
+            "it",
+        ],
     },
     "JE": {
         "name": "Jersey",
@@ -1270,8 +1270,8 @@ export var countriesInfo = {
         "currency": "GBP",
         "languages": [
             "en",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "JM": {
         "name": "Jamaica",
@@ -1281,8 +1281,8 @@ export var countriesInfo = {
         "capital": "Kingston",
         "currency": "JMD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "JO": {
         "name": "Jordan",
@@ -1292,8 +1292,8 @@ export var countriesInfo = {
         "capital": "Amman",
         "currency": "JOD",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "JP": {
         "name": "Japan",
@@ -1303,8 +1303,8 @@ export var countriesInfo = {
         "capital": "Tokyo",
         "currency": "JPY",
         "languages": [
-            "ja"
-        ]
+            "ja",
+        ],
     },
     "KE": {
         "name": "Kenya",
@@ -1315,8 +1315,8 @@ export var countriesInfo = {
         "currency": "KES",
         "languages": [
             "en",
-            "sw"
-        ]
+            "sw",
+        ],
     },
     "KG": {
         "name": "Kyrgyzstan",
@@ -1327,8 +1327,8 @@ export var countriesInfo = {
         "currency": "KGS",
         "languages": [
             "ky",
-            "ru"
-        ]
+            "ru",
+        ],
     },
     "KH": {
         "name": "Cambodia",
@@ -1338,8 +1338,8 @@ export var countriesInfo = {
         "capital": "Phnom Penh",
         "currency": "KHR",
         "languages": [
-            "km"
-        ]
+            "km",
+        ],
     },
     "KI": {
         "name": "Kiribati",
@@ -1349,8 +1349,8 @@ export var countriesInfo = {
         "capital": "South Tarawa",
         "currency": "AUD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "KM": {
         "name": "Comoros",
@@ -1361,8 +1361,8 @@ export var countriesInfo = {
         "currency": "KMF",
         "languages": [
             "ar",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "KN": {
         "name": "Saint Kitts and Nevis",
@@ -1372,8 +1372,8 @@ export var countriesInfo = {
         "capital": "Basseterre",
         "currency": "XCD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "KP": {
         "name": "North Korea",
@@ -1383,8 +1383,8 @@ export var countriesInfo = {
         "capital": "Pyongyang",
         "currency": "KPW",
         "languages": [
-            "ko"
-        ]
+            "ko",
+        ],
     },
     "KR": {
         "name": "South Korea",
@@ -1394,8 +1394,8 @@ export var countriesInfo = {
         "capital": "Seoul",
         "currency": "KRW",
         "languages": [
-            "ko"
-        ]
+            "ko",
+        ],
     },
     "KW": {
         "name": "Kuwait",
@@ -1405,8 +1405,8 @@ export var countriesInfo = {
         "capital": "Kuwait City",
         "currency": "KWD",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "KY": {
         "name": "Cayman Islands",
@@ -1416,8 +1416,8 @@ export var countriesInfo = {
         "capital": "George Town",
         "currency": "KYD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "KZ": {
         "name": "Kazakhstan",
@@ -1428,8 +1428,8 @@ export var countriesInfo = {
         "currency": "KZT",
         "languages": [
             "kk",
-            "ru"
-        ]
+            "ru",
+        ],
     },
     "LA": {
         "name": "Laos",
@@ -1439,8 +1439,8 @@ export var countriesInfo = {
         "capital": "Vientiane",
         "currency": "LAK",
         "languages": [
-            "lo"
-        ]
+            "lo",
+        ],
     },
     "LB": {
         "name": "Lebanon",
@@ -1451,8 +1451,8 @@ export var countriesInfo = {
         "currency": "LBP",
         "languages": [
             "ar",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "LC": {
         "name": "Saint Lucia",
@@ -1462,8 +1462,8 @@ export var countriesInfo = {
         "capital": "Castries",
         "currency": "XCD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "LI": {
         "name": "Liechtenstein",
@@ -1473,8 +1473,8 @@ export var countriesInfo = {
         "capital": "Vaduz",
         "currency": "CHF",
         "languages": [
-            "de"
-        ]
+            "de",
+        ],
     },
     "LK": {
         "name": "Sri Lanka",
@@ -1485,8 +1485,8 @@ export var countriesInfo = {
         "currency": "LKR",
         "languages": [
             "si",
-            "ta"
-        ]
+            "ta",
+        ],
     },
     "LR": {
         "name": "Liberia",
@@ -1496,8 +1496,8 @@ export var countriesInfo = {
         "capital": "Monrovia",
         "currency": "LRD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "LS": {
         "name": "Lesotho",
@@ -1508,8 +1508,8 @@ export var countriesInfo = {
         "currency": "LSL,ZAR",
         "languages": [
             "en",
-            "st"
-        ]
+            "st",
+        ],
     },
     "LT": {
         "name": "Lithuania",
@@ -1519,8 +1519,8 @@ export var countriesInfo = {
         "capital": "Vilnius",
         "currency": "LTL",
         "languages": [
-            "lt"
-        ]
+            "lt",
+        ],
     },
     "LU": {
         "name": "Luxembourg",
@@ -1532,8 +1532,8 @@ export var countriesInfo = {
         "languages": [
             "fr",
             "de",
-            "lb"
-        ]
+            "lb",
+        ],
     },
     "LV": {
         "name": "Latvia",
@@ -1543,8 +1543,8 @@ export var countriesInfo = {
         "capital": "Riga",
         "currency": "EUR",
         "languages": [
-            "lv"
-        ]
+            "lv",
+        ],
     },
     "LY": {
         "name": "Libya",
@@ -1554,8 +1554,8 @@ export var countriesInfo = {
         "capital": "Tripoli",
         "currency": "LYD",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "MA": {
         "name": "Morocco",
@@ -1565,8 +1565,8 @@ export var countriesInfo = {
         "capital": "Rabat",
         "currency": "MAD",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "MC": {
         "name": "Monaco",
@@ -1576,8 +1576,8 @@ export var countriesInfo = {
         "capital": "Monaco",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "MD": {
         "name": "Moldova",
@@ -1587,8 +1587,8 @@ export var countriesInfo = {
         "capital": "Chișinău",
         "currency": "MDL",
         "languages": [
-            "ro"
-        ]
+            "ro",
+        ],
     },
     "ME": {
         "name": "Montenegro",
@@ -1601,8 +1601,8 @@ export var countriesInfo = {
             "sr",
             "bs",
             "sq",
-            "hr"
-        ]
+            "hr",
+        ],
     },
     "MF": {
         "name": "Saint Martin",
@@ -1614,8 +1614,8 @@ export var countriesInfo = {
         "languages": [
             "en",
             "fr",
-            "nl"
-        ]
+            "nl",
+        ],
     },
     "MG": {
         "name": "Madagascar",
@@ -1626,8 +1626,8 @@ export var countriesInfo = {
         "currency": "MGA",
         "languages": [
             "fr",
-            "mg"
-        ]
+            "mg",
+        ],
     },
     "MH": {
         "name": "Marshall Islands",
@@ -1638,8 +1638,8 @@ export var countriesInfo = {
         "currency": "USD",
         "languages": [
             "en",
-            "mh"
-        ]
+            "mh",
+        ],
     },
     "MK": {
         "name": "Macedonia",
@@ -1649,8 +1649,8 @@ export var countriesInfo = {
         "capital": "Skopje",
         "currency": "MKD",
         "languages": [
-            "mk"
-        ]
+            "mk",
+        ],
     },
     "ML": {
         "name": "Mali",
@@ -1660,8 +1660,8 @@ export var countriesInfo = {
         "capital": "Bamako",
         "currency": "XOF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "MM": {
         "name": "Myanmar [Burma]",
@@ -1671,8 +1671,8 @@ export var countriesInfo = {
         "capital": "Naypyidaw",
         "currency": "MMK",
         "languages": [
-            "my"
-        ]
+            "my",
+        ],
     },
     "MN": {
         "name": "Mongolia",
@@ -1682,8 +1682,8 @@ export var countriesInfo = {
         "capital": "Ulan Bator",
         "currency": "MNT",
         "languages": [
-            "mn"
-        ]
+            "mn",
+        ],
     },
     "MO": {
         "name": "Macao",
@@ -1694,8 +1694,8 @@ export var countriesInfo = {
         "currency": "MOP",
         "languages": [
             "zh",
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "MP": {
         "name": "Northern Mariana Islands",
@@ -1706,8 +1706,8 @@ export var countriesInfo = {
         "currency": "USD",
         "languages": [
             "en",
-            "ch"
-        ]
+            "ch",
+        ],
     },
     "MQ": {
         "name": "Martinique",
@@ -1717,8 +1717,8 @@ export var countriesInfo = {
         "capital": "Fort-de-France",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "MR": {
         "name": "Mauritania",
@@ -1728,8 +1728,8 @@ export var countriesInfo = {
         "capital": "Nouakchott",
         "currency": "MRO",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "MS": {
         "name": "Montserrat",
@@ -1739,8 +1739,8 @@ export var countriesInfo = {
         "capital": "Plymouth",
         "currency": "XCD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "MT": {
         "name": "Malta",
@@ -1751,8 +1751,8 @@ export var countriesInfo = {
         "currency": "EUR",
         "languages": [
             "mt",
-            "en"
-        ]
+            "en",
+        ],
     },
     "MU": {
         "name": "Mauritius",
@@ -1762,8 +1762,8 @@ export var countriesInfo = {
         "capital": "Port Louis",
         "currency": "MUR",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "MV": {
         "name": "Maldives",
@@ -1773,8 +1773,8 @@ export var countriesInfo = {
         "capital": "Malé",
         "currency": "MVR",
         "languages": [
-            "dv"
-        ]
+            "dv",
+        ],
     },
     "MW": {
         "name": "Malawi",
@@ -1785,8 +1785,8 @@ export var countriesInfo = {
         "currency": "MWK",
         "languages": [
             "en",
-            "ny"
-        ]
+            "ny",
+        ],
     },
     "MX": {
         "name": "Mexico",
@@ -1796,8 +1796,8 @@ export var countriesInfo = {
         "capital": "Mexico City",
         "currency": "MXN",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "MY": {
         "name": "Malaysia",
@@ -1806,7 +1806,7 @@ export var countriesInfo = {
         "continent": "AS",
         "capital": "Kuala Lumpur",
         "currency": "MYR",
-        "languages": []
+        "languages": [],
     },
     "MZ": {
         "name": "Mozambique",
@@ -1816,8 +1816,8 @@ export var countriesInfo = {
         "capital": "Maputo",
         "currency": "MZN",
         "languages": [
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "NA": {
         "name": "Namibia",
@@ -1828,8 +1828,8 @@ export var countriesInfo = {
         "currency": "NAD,ZAR",
         "languages": [
             "en",
-            "af"
-        ]
+            "af",
+        ],
     },
     "NC": {
         "name": "New Caledonia",
@@ -1839,8 +1839,8 @@ export var countriesInfo = {
         "capital": "Nouméa",
         "currency": "XPF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "NE": {
         "name": "Niger",
@@ -1850,8 +1850,8 @@ export var countriesInfo = {
         "capital": "Niamey",
         "currency": "XOF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "NF": {
         "name": "Norfolk Island",
@@ -1861,8 +1861,8 @@ export var countriesInfo = {
         "capital": "Kingston",
         "currency": "AUD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "NG": {
         "name": "Nigeria",
@@ -1872,8 +1872,8 @@ export var countriesInfo = {
         "capital": "Abuja",
         "currency": "NGN",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "NI": {
         "name": "Nicaragua",
@@ -1883,8 +1883,8 @@ export var countriesInfo = {
         "capital": "Managua",
         "currency": "NIO",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "NL": {
         "name": "Netherlands",
@@ -1894,8 +1894,8 @@ export var countriesInfo = {
         "capital": "Amsterdam",
         "currency": "EUR",
         "languages": [
-            "nl"
-        ]
+            "nl",
+        ],
     },
     "NO": {
         "name": "Norway",
@@ -1907,8 +1907,8 @@ export var countriesInfo = {
         "languages": [
             "no",
             "nb",
-            "nn"
-        ]
+            "nn",
+        ],
     },
     "NP": {
         "name": "Nepal",
@@ -1918,8 +1918,8 @@ export var countriesInfo = {
         "capital": "Kathmandu",
         "currency": "NPR",
         "languages": [
-            "ne"
-        ]
+            "ne",
+        ],
     },
     "NR": {
         "name": "Nauru",
@@ -1930,8 +1930,8 @@ export var countriesInfo = {
         "currency": "AUD",
         "languages": [
             "en",
-            "na"
-        ]
+            "na",
+        ],
     },
     "NU": {
         "name": "Niue",
@@ -1941,8 +1941,8 @@ export var countriesInfo = {
         "capital": "Alofi",
         "currency": "NZD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "NZ": {
         "name": "New Zealand",
@@ -1953,8 +1953,8 @@ export var countriesInfo = {
         "currency": "NZD",
         "languages": [
             "en",
-            "mi"
-        ]
+            "mi",
+        ],
     },
     "OM": {
         "name": "Oman",
@@ -1964,8 +1964,8 @@ export var countriesInfo = {
         "capital": "Muscat",
         "currency": "OMR",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "PA": {
         "name": "Panama",
@@ -1975,8 +1975,8 @@ export var countriesInfo = {
         "capital": "Panama City",
         "currency": "PAB,USD",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "PE": {
         "name": "Peru",
@@ -1986,8 +1986,8 @@ export var countriesInfo = {
         "capital": "Lima",
         "currency": "PEN",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "PF": {
         "name": "French Polynesia",
@@ -1997,8 +1997,8 @@ export var countriesInfo = {
         "capital": "Papeetē",
         "currency": "XPF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "PG": {
         "name": "Papua New Guinea",
@@ -2008,8 +2008,8 @@ export var countriesInfo = {
         "capital": "Port Moresby",
         "currency": "PGK",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "PH": {
         "name": "Philippines",
@@ -2019,8 +2019,8 @@ export var countriesInfo = {
         "capital": "Manila",
         "currency": "PHP",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "PK": {
         "name": "Pakistan",
@@ -2031,8 +2031,8 @@ export var countriesInfo = {
         "currency": "PKR",
         "languages": [
             "en",
-            "ur"
-        ]
+            "ur",
+        ],
     },
     "PL": {
         "name": "Poland",
@@ -2042,8 +2042,8 @@ export var countriesInfo = {
         "capital": "Warsaw",
         "currency": "PLN",
         "languages": [
-            "pl"
-        ]
+            "pl",
+        ],
     },
     "PM": {
         "name": "Saint Pierre and Miquelon",
@@ -2053,8 +2053,8 @@ export var countriesInfo = {
         "capital": "Saint-Pierre",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "PN": {
         "name": "Pitcairn Islands",
@@ -2064,8 +2064,8 @@ export var countriesInfo = {
         "capital": "Adamstown",
         "currency": "NZD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "PR": {
         "name": "Puerto Rico",
@@ -2076,8 +2076,8 @@ export var countriesInfo = {
         "currency": "USD",
         "languages": [
             "es",
-            "en"
-        ]
+            "en",
+        ],
     },
     "PS": {
         "name": "Palestine",
@@ -2087,8 +2087,8 @@ export var countriesInfo = {
         "capital": "Ramallah",
         "currency": "ILS",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "PT": {
         "name": "Portugal",
@@ -2098,8 +2098,8 @@ export var countriesInfo = {
         "capital": "Lisbon",
         "currency": "EUR",
         "languages": [
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "PW": {
         "name": "Palau",
@@ -2109,8 +2109,8 @@ export var countriesInfo = {
         "capital": "Ngerulmud",
         "currency": "USD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "PY": {
         "name": "Paraguay",
@@ -2121,8 +2121,8 @@ export var countriesInfo = {
         "currency": "PYG",
         "languages": [
             "es",
-            "gn"
-        ]
+            "gn",
+        ],
     },
     "QA": {
         "name": "Qatar",
@@ -2132,8 +2132,8 @@ export var countriesInfo = {
         "capital": "Doha",
         "currency": "QAR",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "RE": {
         "name": "Réunion",
@@ -2143,8 +2143,8 @@ export var countriesInfo = {
         "capital": "Saint-Denis",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "RO": {
         "name": "Romania",
@@ -2154,8 +2154,8 @@ export var countriesInfo = {
         "capital": "Bucharest",
         "currency": "RON",
         "languages": [
-            "ro"
-        ]
+            "ro",
+        ],
     },
     "RS": {
         "name": "Serbia",
@@ -2165,8 +2165,8 @@ export var countriesInfo = {
         "capital": "Belgrade",
         "currency": "RSD",
         "languages": [
-            "sr"
-        ]
+            "sr",
+        ],
     },
     "RU": {
         "name": "Russia",
@@ -2176,8 +2176,8 @@ export var countriesInfo = {
         "capital": "Moscow",
         "currency": "RUB",
         "languages": [
-            "ru"
-        ]
+            "ru",
+        ],
     },
     "RW": {
         "name": "Rwanda",
@@ -2189,8 +2189,8 @@ export var countriesInfo = {
         "languages": [
             "rw",
             "en",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "SA": {
         "name": "Saudi Arabia",
@@ -2200,8 +2200,8 @@ export var countriesInfo = {
         "capital": "Riyadh",
         "currency": "SAR",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "SB": {
         "name": "Solomon Islands",
@@ -2211,8 +2211,8 @@ export var countriesInfo = {
         "capital": "Honiara",
         "currency": "SBD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "SC": {
         "name": "Seychelles",
@@ -2223,8 +2223,8 @@ export var countriesInfo = {
         "currency": "SCR",
         "languages": [
             "fr",
-            "en"
-        ]
+            "en",
+        ],
     },
     "SD": {
         "name": "Sudan",
@@ -2235,8 +2235,8 @@ export var countriesInfo = {
         "currency": "SDG",
         "languages": [
             "ar",
-            "en"
-        ]
+            "en",
+        ],
     },
     "SE": {
         "name": "Sweden",
@@ -2246,8 +2246,8 @@ export var countriesInfo = {
         "capital": "Stockholm",
         "currency": "SEK",
         "languages": [
-            "sv"
-        ]
+            "sv",
+        ],
     },
     "SG": {
         "name": "Singapore",
@@ -2260,8 +2260,8 @@ export var countriesInfo = {
             "en",
             "ms",
             "ta",
-            "zh"
-        ]
+            "zh",
+        ],
     },
     "SH": {
         "name": "Saint Helena",
@@ -2271,8 +2271,8 @@ export var countriesInfo = {
         "capital": "Jamestown",
         "currency": "SHP",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "SI": {
         "name": "Slovenia",
@@ -2282,8 +2282,8 @@ export var countriesInfo = {
         "capital": "Ljubljana",
         "currency": "EUR",
         "languages": [
-            "sl"
-        ]
+            "sl",
+        ],
     },
     "SJ": {
         "name": "Svalbard and Jan Mayen",
@@ -2293,8 +2293,8 @@ export var countriesInfo = {
         "capital": "Longyearbyen",
         "currency": "NOK",
         "languages": [
-            "no"
-        ]
+            "no",
+        ],
     },
     "SK": {
         "name": "Slovakia",
@@ -2304,8 +2304,8 @@ export var countriesInfo = {
         "capital": "Bratislava",
         "currency": "EUR",
         "languages": [
-            "sk"
-        ]
+            "sk",
+        ],
     },
     "SL": {
         "name": "Sierra Leone",
@@ -2315,8 +2315,8 @@ export var countriesInfo = {
         "capital": "Freetown",
         "currency": "SLL",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "SM": {
         "name": "San Marino",
@@ -2326,8 +2326,8 @@ export var countriesInfo = {
         "capital": "City of San Marino",
         "currency": "EUR",
         "languages": [
-            "it"
-        ]
+            "it",
+        ],
     },
     "SN": {
         "name": "Senegal",
@@ -2337,8 +2337,8 @@ export var countriesInfo = {
         "capital": "Dakar",
         "currency": "XOF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "SO": {
         "name": "Somalia",
@@ -2349,8 +2349,8 @@ export var countriesInfo = {
         "currency": "SOS",
         "languages": [
             "so",
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "SR": {
         "name": "Suriname",
@@ -2360,8 +2360,8 @@ export var countriesInfo = {
         "capital": "Paramaribo",
         "currency": "SRD",
         "languages": [
-            "nl"
-        ]
+            "nl",
+        ],
     },
     "SS": {
         "name": "South Sudan",
@@ -2371,8 +2371,8 @@ export var countriesInfo = {
         "capital": "Juba",
         "currency": "SSP",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "ST": {
         "name": "São Tomé and Príncipe",
@@ -2382,8 +2382,8 @@ export var countriesInfo = {
         "capital": "São Tomé",
         "currency": "STD",
         "languages": [
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "SV": {
         "name": "El Salvador",
@@ -2393,8 +2393,8 @@ export var countriesInfo = {
         "capital": "San Salvador",
         "currency": "SVC,USD",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "SX": {
         "name": "Sint Maarten",
@@ -2405,8 +2405,8 @@ export var countriesInfo = {
         "currency": "ANG",
         "languages": [
             "nl",
-            "en"
-        ]
+            "en",
+        ],
     },
     "SY": {
         "name": "Syria",
@@ -2416,8 +2416,8 @@ export var countriesInfo = {
         "capital": "Damascus",
         "currency": "SYP",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "SZ": {
         "name": "Swaziland",
@@ -2428,8 +2428,8 @@ export var countriesInfo = {
         "currency": "SZL",
         "languages": [
             "en",
-            "ss"
-        ]
+            "ss",
+        ],
     },
     "TC": {
         "name": "Turks and Caicos Islands",
@@ -2439,8 +2439,8 @@ export var countriesInfo = {
         "capital": "Cockburn Town",
         "currency": "USD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "TD": {
         "name": "Chad",
@@ -2451,8 +2451,8 @@ export var countriesInfo = {
         "currency": "XAF",
         "languages": [
             "fr",
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "TF": {
         "name": "French Southern Territories",
@@ -2462,8 +2462,8 @@ export var countriesInfo = {
         "capital": "Port-aux-Français",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "TG": {
         "name": "Togo",
@@ -2473,8 +2473,8 @@ export var countriesInfo = {
         "capital": "Lomé",
         "currency": "XOF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "TH": {
         "name": "Thailand",
@@ -2484,8 +2484,8 @@ export var countriesInfo = {
         "capital": "Bangkok",
         "currency": "THB",
         "languages": [
-            "th"
-        ]
+            "th",
+        ],
     },
     "TJ": {
         "name": "Tajikistan",
@@ -2496,8 +2496,8 @@ export var countriesInfo = {
         "currency": "TJS",
         "languages": [
             "tg",
-            "ru"
-        ]
+            "ru",
+        ],
     },
     "TK": {
         "name": "Tokelau",
@@ -2507,8 +2507,8 @@ export var countriesInfo = {
         "capital": "Fakaofo",
         "currency": "NZD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "TL": {
         "name": "East Timor",
@@ -2518,8 +2518,8 @@ export var countriesInfo = {
         "capital": "Dili",
         "currency": "USD",
         "languages": [
-            "pt"
-        ]
+            "pt",
+        ],
     },
     "TM": {
         "name": "Turkmenistan",
@@ -2530,8 +2530,8 @@ export var countriesInfo = {
         "currency": "TMT",
         "languages": [
             "tk",
-            "ru"
-        ]
+            "ru",
+        ],
     },
     "TN": {
         "name": "Tunisia",
@@ -2541,8 +2541,8 @@ export var countriesInfo = {
         "capital": "Tunis",
         "currency": "TND",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "TO": {
         "name": "Tonga",
@@ -2553,8 +2553,8 @@ export var countriesInfo = {
         "currency": "TOP",
         "languages": [
             "en",
-            "to"
-        ]
+            "to",
+        ],
     },
     "TR": {
         "name": "Turkey",
@@ -2564,8 +2564,8 @@ export var countriesInfo = {
         "capital": "Ankara",
         "currency": "TRY",
         "languages": [
-            "tr"
-        ]
+            "tr",
+        ],
     },
     "TT": {
         "name": "Trinidad and Tobago",
@@ -2575,8 +2575,8 @@ export var countriesInfo = {
         "capital": "Port of Spain",
         "currency": "TTD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "TV": {
         "name": "Tuvalu",
@@ -2586,8 +2586,8 @@ export var countriesInfo = {
         "capital": "Funafuti",
         "currency": "AUD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "TW": {
         "name": "Taiwan",
@@ -2597,8 +2597,8 @@ export var countriesInfo = {
         "capital": "Taipei",
         "currency": "TWD",
         "languages": [
-            "zh"
-        ]
+            "zh",
+        ],
     },
     "TZ": {
         "name": "Tanzania",
@@ -2609,8 +2609,8 @@ export var countriesInfo = {
         "currency": "TZS",
         "languages": [
             "sw",
-            "en"
-        ]
+            "en",
+        ],
     },
     "UA": {
         "name": "Ukraine",
@@ -2620,8 +2620,8 @@ export var countriesInfo = {
         "capital": "Kyiv",
         "currency": "UAH",
         "languages": [
-            "uk"
-        ]
+            "uk",
+        ],
     },
     "UG": {
         "name": "Uganda",
@@ -2632,8 +2632,8 @@ export var countriesInfo = {
         "currency": "UGX",
         "languages": [
             "en",
-            "sw"
-        ]
+            "sw",
+        ],
     },
     "UM": {
         "name": "U.S. Minor Outlying Islands",
@@ -2643,8 +2643,8 @@ export var countriesInfo = {
         "capital": "",
         "currency": "USD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "US": {
         "name": "United States",
@@ -2654,8 +2654,8 @@ export var countriesInfo = {
         "capital": "Washington D.C.",
         "currency": "USD,USN,USS",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "UY": {
         "name": "Uruguay",
@@ -2665,8 +2665,8 @@ export var countriesInfo = {
         "capital": "Montevideo",
         "currency": "UYI,UYU",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "UZ": {
         "name": "Uzbekistan",
@@ -2677,8 +2677,8 @@ export var countriesInfo = {
         "currency": "UZS",
         "languages": [
             "uz",
-            "ru"
-        ]
+            "ru",
+        ],
     },
     "VA": {
         "name": "Vatican City",
@@ -2689,8 +2689,8 @@ export var countriesInfo = {
         "currency": "EUR",
         "languages": [
             "it",
-            "la"
-        ]
+            "la",
+        ],
     },
     "VC": {
         "name": "Saint Vincent and the Grenadines",
@@ -2700,8 +2700,8 @@ export var countriesInfo = {
         "capital": "Kingstown",
         "currency": "XCD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "VE": {
         "name": "Venezuela",
@@ -2711,8 +2711,8 @@ export var countriesInfo = {
         "capital": "Caracas",
         "currency": "VEF",
         "languages": [
-            "es"
-        ]
+            "es",
+        ],
     },
     "VG": {
         "name": "British Virgin Islands",
@@ -2722,8 +2722,8 @@ export var countriesInfo = {
         "capital": "Road Town",
         "currency": "USD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "VI": {
         "name": "U.S. Virgin Islands",
@@ -2733,8 +2733,8 @@ export var countriesInfo = {
         "capital": "Charlotte Amalie",
         "currency": "USD",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "VN": {
         "name": "Vietnam",
@@ -2744,8 +2744,8 @@ export var countriesInfo = {
         "capital": "Hanoi",
         "currency": "VND",
         "languages": [
-            "vi"
-        ]
+            "vi",
+        ],
     },
     "VU": {
         "name": "Vanuatu",
@@ -2757,8 +2757,8 @@ export var countriesInfo = {
         "languages": [
             "bi",
             "en",
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "WF": {
         "name": "Wallis and Futuna",
@@ -2768,8 +2768,8 @@ export var countriesInfo = {
         "capital": "Mata-Utu",
         "currency": "XPF",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "WS": {
         "name": "Samoa",
@@ -2780,8 +2780,8 @@ export var countriesInfo = {
         "currency": "WST",
         "languages": [
             "sm",
-            "en"
-        ]
+            "en",
+        ],
     },
     "XK": {
         "name": "Kosovo",
@@ -2792,8 +2792,8 @@ export var countriesInfo = {
         "currency": "EUR",
         "languages": [
             "sq",
-            "sr"
-        ]
+            "sr",
+        ],
     },
     "YE": {
         "name": "Yemen",
@@ -2803,8 +2803,8 @@ export var countriesInfo = {
         "capital": "Sana'a",
         "currency": "YER",
         "languages": [
-            "ar"
-        ]
+            "ar",
+        ],
     },
     "YT": {
         "name": "Mayotte",
@@ -2814,8 +2814,8 @@ export var countriesInfo = {
         "capital": "Mamoudzou",
         "currency": "EUR",
         "languages": [
-            "fr"
-        ]
+            "fr",
+        ],
     },
     "ZA": {
         "name": "South Africa",
@@ -2834,8 +2834,8 @@ export var countriesInfo = {
             "ts",
             "ve",
             "xh",
-            "zu"
-        ]
+            "zu",
+        ],
     },
     "ZM": {
         "name": "Zambia",
@@ -2845,8 +2845,8 @@ export var countriesInfo = {
         "capital": "Lusaka",
         "currency": "ZMK",
         "languages": [
-            "en"
-        ]
+            "en",
+        ],
     },
     "ZW": {
         "name": "Zimbabwe",
@@ -2858,8 +2858,8 @@ export var countriesInfo = {
         "languages": [
             "en",
             "sn",
-            "nd"
-        ]
-    }
+            "nd",
+        ],
+    },
 };
 //# sourceMappingURL=countriesInfo.js.map

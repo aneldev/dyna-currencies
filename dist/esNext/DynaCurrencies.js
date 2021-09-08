@@ -56,7 +56,7 @@ var DynaCurrencies = /** @class */ (function () {
                     currencyCode: currInfo.code,
                     currencySymbol: currInfo.symbol,
                     currencySymbolNative: currInfo.symbolNative,
-                }
+                },
             };
         };
         this.getCurrencyRatesDic = function () {
