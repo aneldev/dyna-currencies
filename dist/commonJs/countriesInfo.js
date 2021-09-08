@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.countriesInfo = void 0;
 // source: https://gist.github.com/Fluidbyte/2973986
 exports.countriesInfo = {
     "AD": {

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.currenciesInfo = void 0;
 // source: https://github.com/annexare/Countries/blob/master/data/countries.json
 exports.currenciesInfo = {
     "USD": {

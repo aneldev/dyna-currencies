@@ -10,4 +10,4 @@ export {
   ICurrencyRates,
   ICurrency,
   IDynaLabelCurrency,
-}
+};

@@ -1,6 +1,6 @@
 import {
   IDynaLabel,
-  IDynaPrice
+  IDynaPrice,
 } from "dyna-interfaces";
 
 import {currenciesInfo} from "./currenciesInfo";
@@ -47,7 +47,7 @@ export interface IDynaLabelCurrency extends IDynaLabel {
     currencyCode: string;
     currencySymbol: string;
     currencySymbolNative: string;
-  }
+  };
 }
 
 export class DynaCurrencies {
@@ -77,7 +77,7 @@ export class DynaCurrencies {
     return !!this.count;
   }
 
-  public convert = (value: number, fromCurrency: string, toCurrency: string, round: boolean = false): number | null => {
+  public convert = (value: number, fromCurrency: string, toCurrency: string, round = false): number | null => {
     const fromCurrencyLC = fromCurrency.toLowerCase();
     const toCurrencyLC = toCurrency.toLowerCase();
     const toCurrencyUC = toCurrency.toUpperCase();
@@ -130,8 +130,8 @@ export class DynaCurrencies {
         currencyCode: currInfo.code,
         currencySymbol: currInfo.symbol,
         currencySymbolNative: currInfo.symbolNative,
-      }
-    }
+      },
+    };
   };
 
   public getCurrencyRatesDic = (): ICurrencyRates => {

@@ -1,4 +1,4 @@
-import { ICountries } from "./DynaCurrencies";
+import {ICountries} from "./DynaCurrencies";
 
 // source: https://gist.github.com/Fluidbyte/2973986
 
@@ -11,8 +11,8 @@ export const countriesInfo: ICountries = {
     "capital": "Andorra la Vella",
     "currency": "EUR",
     "languages": [
-      "ca"
-    ]
+      "ca",
+    ],
   },
   "AE": {
     "name": "United Arab Emirates",
@@ -22,8 +22,8 @@ export const countriesInfo: ICountries = {
     "capital": "Abu Dhabi",
     "currency": "AED",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "AF": {
     "name": "Afghanistan",
@@ -35,8 +35,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "ps",
       "uz",
-      "tk"
-    ]
+      "tk",
+    ],
   },
   "AG": {
     "name": "Antigua and Barbuda",
@@ -46,8 +46,8 @@ export const countriesInfo: ICountries = {
     "capital": "Saint John's",
     "currency": "XCD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "AI": {
     "name": "Anguilla",
@@ -57,8 +57,8 @@ export const countriesInfo: ICountries = {
     "capital": "The Valley",
     "currency": "XCD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "AL": {
     "name": "Albania",
@@ -68,8 +68,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tirana",
     "currency": "ALL",
     "languages": [
-      "sq"
-    ]
+      "sq",
+    ],
   },
   "AM": {
     "name": "Armenia",
@@ -80,8 +80,8 @@ export const countriesInfo: ICountries = {
     "currency": "AMD",
     "languages": [
       "hy",
-      "ru"
-    ]
+      "ru",
+    ],
   },
   "AO": {
     "name": "Angola",
@@ -91,8 +91,8 @@ export const countriesInfo: ICountries = {
     "capital": "Luanda",
     "currency": "AOA",
     "languages": [
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "AQ": {
     "name": "Antarctica",
@@ -101,7 +101,7 @@ export const countriesInfo: ICountries = {
     "continent": "AN",
     "capital": "",
     "currency": "",
-    "languages": []
+    "languages": [],
   },
   "AR": {
     "name": "Argentina",
@@ -112,8 +112,8 @@ export const countriesInfo: ICountries = {
     "currency": "ARS",
     "languages": [
       "es",
-      "gn"
-    ]
+      "gn",
+    ],
   },
   "AS": {
     "name": "American Samoa",
@@ -124,8 +124,8 @@ export const countriesInfo: ICountries = {
     "currency": "USD",
     "languages": [
       "en",
-      "sm"
-    ]
+      "sm",
+    ],
   },
   "AT": {
     "name": "Austria",
@@ -135,8 +135,8 @@ export const countriesInfo: ICountries = {
     "capital": "Vienna",
     "currency": "EUR",
     "languages": [
-      "de"
-    ]
+      "de",
+    ],
   },
   "AU": {
     "name": "Australia",
@@ -146,8 +146,8 @@ export const countriesInfo: ICountries = {
     "capital": "Canberra",
     "currency": "AUD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "AW": {
     "name": "Aruba",
@@ -158,8 +158,8 @@ export const countriesInfo: ICountries = {
     "currency": "AWG",
     "languages": [
       "nl",
-      "pa"
-    ]
+      "pa",
+    ],
   },
   "AX": {
     "name": "Åland",
@@ -169,8 +169,8 @@ export const countriesInfo: ICountries = {
     "capital": "Mariehamn",
     "currency": "EUR",
     "languages": [
-      "sv"
-    ]
+      "sv",
+    ],
   },
   "AZ": {
     "name": "Azerbaijan",
@@ -180,8 +180,8 @@ export const countriesInfo: ICountries = {
     "capital": "Baku",
     "currency": "AZN",
     "languages": [
-      "az"
-    ]
+      "az",
+    ],
   },
   "BA": {
     "name": "Bosnia and Herzegovina",
@@ -193,8 +193,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "bs",
       "hr",
-      "sr"
-    ]
+      "sr",
+    ],
   },
   "BB": {
     "name": "Barbados",
@@ -204,8 +204,8 @@ export const countriesInfo: ICountries = {
     "capital": "Bridgetown",
     "currency": "BBD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "BD": {
     "name": "Bangladesh",
@@ -215,8 +215,8 @@ export const countriesInfo: ICountries = {
     "capital": "Dhaka",
     "currency": "BDT",
     "languages": [
-      "bn"
-    ]
+      "bn",
+    ],
   },
   "BE": {
     "name": "Belgium",
@@ -228,8 +228,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "nl",
       "fr",
-      "de"
-    ]
+      "de",
+    ],
   },
   "BF": {
     "name": "Burkina Faso",
@@ -240,8 +240,8 @@ export const countriesInfo: ICountries = {
     "currency": "XOF",
     "languages": [
       "fr",
-      "ff"
-    ]
+      "ff",
+    ],
   },
   "BG": {
     "name": "Bulgaria",
@@ -251,8 +251,8 @@ export const countriesInfo: ICountries = {
     "capital": "Sofia",
     "currency": "BGN",
     "languages": [
-      "bg"
-    ]
+      "bg",
+    ],
   },
   "BH": {
     "name": "Bahrain",
@@ -262,8 +262,8 @@ export const countriesInfo: ICountries = {
     "capital": "Manama",
     "currency": "BHD",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "BI": {
     "name": "Burundi",
@@ -274,8 +274,8 @@ export const countriesInfo: ICountries = {
     "currency": "BIF",
     "languages": [
       "fr",
-      "rn"
-    ]
+      "rn",
+    ],
   },
   "BJ": {
     "name": "Benin",
@@ -285,8 +285,8 @@ export const countriesInfo: ICountries = {
     "capital": "Porto-Novo",
     "currency": "XOF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "BL": {
     "name": "Saint Barthélemy",
@@ -296,8 +296,8 @@ export const countriesInfo: ICountries = {
     "capital": "Gustavia",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "BM": {
     "name": "Bermuda",
@@ -307,8 +307,8 @@ export const countriesInfo: ICountries = {
     "capital": "Hamilton",
     "currency": "BMD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "BN": {
     "name": "Brunei",
@@ -318,8 +318,8 @@ export const countriesInfo: ICountries = {
     "capital": "Bandar Seri Begawan",
     "currency": "BND",
     "languages": [
-      "ms"
-    ]
+      "ms",
+    ],
   },
   "BO": {
     "name": "Bolivia",
@@ -331,8 +331,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "es",
       "ay",
-      "qu"
-    ]
+      "qu",
+    ],
   },
   "BQ": {
     "name": "Bonaire",
@@ -342,8 +342,8 @@ export const countriesInfo: ICountries = {
     "capital": "Kralendijk",
     "currency": "USD",
     "languages": [
-      "nl"
-    ]
+      "nl",
+    ],
   },
   "BR": {
     "name": "Brazil",
@@ -353,8 +353,8 @@ export const countriesInfo: ICountries = {
     "capital": "Brasília",
     "currency": "BRL",
     "languages": [
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "BS": {
     "name": "Bahamas",
@@ -364,8 +364,8 @@ export const countriesInfo: ICountries = {
     "capital": "Nassau",
     "currency": "BSD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "BT": {
     "name": "Bhutan",
@@ -375,8 +375,8 @@ export const countriesInfo: ICountries = {
     "capital": "Thimphu",
     "currency": "BTN,INR",
     "languages": [
-      "dz"
-    ]
+      "dz",
+    ],
   },
   "BV": {
     "name": "Bouvet Island",
@@ -385,7 +385,7 @@ export const countriesInfo: ICountries = {
     "continent": "AN",
     "capital": "",
     "currency": "NOK",
-    "languages": []
+    "languages": [],
   },
   "BW": {
     "name": "Botswana",
@@ -396,8 +396,8 @@ export const countriesInfo: ICountries = {
     "currency": "BWP",
     "languages": [
       "en",
-      "tn"
-    ]
+      "tn",
+    ],
   },
   "BY": {
     "name": "Belarus",
@@ -408,8 +408,8 @@ export const countriesInfo: ICountries = {
     "currency": "BYR",
     "languages": [
       "be",
-      "ru"
-    ]
+      "ru",
+    ],
   },
   "BZ": {
     "name": "Belize",
@@ -420,8 +420,8 @@ export const countriesInfo: ICountries = {
     "currency": "BZD",
     "languages": [
       "en",
-      "es"
-    ]
+      "es",
+    ],
   },
   "CA": {
     "name": "Canada",
@@ -432,8 +432,8 @@ export const countriesInfo: ICountries = {
     "currency": "CAD",
     "languages": [
       "en",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "CC": {
     "name": "Cocos [Keeling] Islands",
@@ -443,8 +443,8 @@ export const countriesInfo: ICountries = {
     "capital": "West Island",
     "currency": "AUD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "CD": {
     "name": "Democratic Republic of the Congo",
@@ -458,8 +458,8 @@ export const countriesInfo: ICountries = {
       "ln",
       "kg",
       "sw",
-      "lu"
-    ]
+      "lu",
+    ],
   },
   "CF": {
     "name": "Central African Republic",
@@ -470,8 +470,8 @@ export const countriesInfo: ICountries = {
     "currency": "XAF",
     "languages": [
       "fr",
-      "sg"
-    ]
+      "sg",
+    ],
   },
   "CG": {
     "name": "Republic of the Congo",
@@ -482,8 +482,8 @@ export const countriesInfo: ICountries = {
     "currency": "XAF",
     "languages": [
       "fr",
-      "ln"
-    ]
+      "ln",
+    ],
   },
   "CH": {
     "name": "Switzerland",
@@ -495,8 +495,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "de",
       "fr",
-      "it"
-    ]
+      "it",
+    ],
   },
   "CI": {
     "name": "Ivory Coast",
@@ -506,8 +506,8 @@ export const countriesInfo: ICountries = {
     "capital": "Yamoussoukro",
     "currency": "XOF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "CK": {
     "name": "Cook Islands",
@@ -517,8 +517,8 @@ export const countriesInfo: ICountries = {
     "capital": "Avarua",
     "currency": "NZD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "CL": {
     "name": "Chile",
@@ -528,8 +528,8 @@ export const countriesInfo: ICountries = {
     "capital": "Santiago",
     "currency": "CLF,CLP",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "CM": {
     "name": "Cameroon",
@@ -540,8 +540,8 @@ export const countriesInfo: ICountries = {
     "currency": "XAF",
     "languages": [
       "en",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "CN": {
     "name": "China",
@@ -551,8 +551,8 @@ export const countriesInfo: ICountries = {
     "capital": "Beijing",
     "currency": "CNY",
     "languages": [
-      "zh"
-    ]
+      "zh",
+    ],
   },
   "CO": {
     "name": "Colombia",
@@ -562,8 +562,8 @@ export const countriesInfo: ICountries = {
     "capital": "Bogotá",
     "currency": "COP",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "CR": {
     "name": "Costa Rica",
@@ -573,8 +573,8 @@ export const countriesInfo: ICountries = {
     "capital": "San José",
     "currency": "CRC",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "CU": {
     "name": "Cuba",
@@ -584,8 +584,8 @@ export const countriesInfo: ICountries = {
     "capital": "Havana",
     "currency": "CUC,CUP",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "CV": {
     "name": "Cape Verde",
@@ -595,8 +595,8 @@ export const countriesInfo: ICountries = {
     "capital": "Praia",
     "currency": "CVE",
     "languages": [
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "CW": {
     "name": "Curacao",
@@ -608,8 +608,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "nl",
       "pa",
-      "en"
-    ]
+      "en",
+    ],
   },
   "CX": {
     "name": "Christmas Island",
@@ -619,8 +619,8 @@ export const countriesInfo: ICountries = {
     "capital": "Flying Fish Cove",
     "currency": "AUD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "CY": {
     "name": "Cyprus",
@@ -632,8 +632,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "el",
       "tr",
-      "hy"
-    ]
+      "hy",
+    ],
   },
   "CZ": {
     "name": "Czech Republic",
@@ -644,8 +644,8 @@ export const countriesInfo: ICountries = {
     "currency": "CZK",
     "languages": [
       "cs",
-      "sk"
-    ]
+      "sk",
+    ],
   },
   "DE": {
     "name": "Germany",
@@ -655,8 +655,8 @@ export const countriesInfo: ICountries = {
     "capital": "Berlin",
     "currency": "EUR",
     "languages": [
-      "de"
-    ]
+      "de",
+    ],
   },
   "DJ": {
     "name": "Djibouti",
@@ -667,8 +667,8 @@ export const countriesInfo: ICountries = {
     "currency": "DJF",
     "languages": [
       "fr",
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "DK": {
     "name": "Denmark",
@@ -678,8 +678,8 @@ export const countriesInfo: ICountries = {
     "capital": "Copenhagen",
     "currency": "DKK",
     "languages": [
-      "da"
-    ]
+      "da",
+    ],
   },
   "DM": {
     "name": "Dominica",
@@ -689,8 +689,8 @@ export const countriesInfo: ICountries = {
     "capital": "Roseau",
     "currency": "XCD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "DO": {
     "name": "Dominican Republic",
@@ -700,8 +700,8 @@ export const countriesInfo: ICountries = {
     "capital": "Santo Domingo",
     "currency": "DOP",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "DZ": {
     "name": "Algeria",
@@ -711,8 +711,8 @@ export const countriesInfo: ICountries = {
     "capital": "Algiers",
     "currency": "DZD",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "EC": {
     "name": "Ecuador",
@@ -722,8 +722,8 @@ export const countriesInfo: ICountries = {
     "capital": "Quito",
     "currency": "USD",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "EE": {
     "name": "Estonia",
@@ -733,8 +733,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tallinn",
     "currency": "EUR",
     "languages": [
-      "et"
-    ]
+      "et",
+    ],
   },
   "EG": {
     "name": "Egypt",
@@ -744,8 +744,8 @@ export const countriesInfo: ICountries = {
     "capital": "Cairo",
     "currency": "EGP",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "EH": {
     "name": "Western Sahara",
@@ -755,8 +755,8 @@ export const countriesInfo: ICountries = {
     "capital": "El Aaiún",
     "currency": "MAD,DZD,MRO",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "ER": {
     "name": "Eritrea",
@@ -768,8 +768,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "ti",
       "ar",
-      "en"
-    ]
+      "en",
+    ],
   },
   "ES": {
     "name": "Spain",
@@ -783,8 +783,8 @@ export const countriesInfo: ICountries = {
       "eu",
       "ca",
       "gl",
-      "oc"
-    ]
+      "oc",
+    ],
   },
   "ET": {
     "name": "Ethiopia",
@@ -794,8 +794,8 @@ export const countriesInfo: ICountries = {
     "capital": "Addis Ababa",
     "currency": "ETB",
     "languages": [
-      "am"
-    ]
+      "am",
+    ],
   },
   "FI": {
     "name": "Finland",
@@ -806,8 +806,8 @@ export const countriesInfo: ICountries = {
     "currency": "EUR",
     "languages": [
       "fi",
-      "sv"
-    ]
+      "sv",
+    ],
   },
   "FJ": {
     "name": "Fiji",
@@ -820,8 +820,8 @@ export const countriesInfo: ICountries = {
       "en",
       "fj",
       "hi",
-      "ur"
-    ]
+      "ur",
+    ],
   },
   "FK": {
     "name": "Falkland Islands",
@@ -831,8 +831,8 @@ export const countriesInfo: ICountries = {
     "capital": "Stanley",
     "currency": "FKP",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "FM": {
     "name": "Micronesia",
@@ -842,8 +842,8 @@ export const countriesInfo: ICountries = {
     "capital": "Palikir",
     "currency": "USD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "FO": {
     "name": "Faroe Islands",
@@ -853,8 +853,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tórshavn",
     "currency": "DKK",
     "languages": [
-      "fo"
-    ]
+      "fo",
+    ],
   },
   "FR": {
     "name": "France",
@@ -864,8 +864,8 @@ export const countriesInfo: ICountries = {
     "capital": "Paris",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "GA": {
     "name": "Gabon",
@@ -875,8 +875,8 @@ export const countriesInfo: ICountries = {
     "capital": "Libreville",
     "currency": "XAF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "GB": {
     "name": "United Kingdom",
@@ -886,8 +886,8 @@ export const countriesInfo: ICountries = {
     "capital": "London",
     "currency": "GBP",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "GD": {
     "name": "Grenada",
@@ -897,8 +897,8 @@ export const countriesInfo: ICountries = {
     "capital": "St. George's",
     "currency": "XCD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "GE": {
     "name": "Georgia",
@@ -908,8 +908,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tbilisi",
     "currency": "GEL",
     "languages": [
-      "ka"
-    ]
+      "ka",
+    ],
   },
   "GF": {
     "name": "French Guiana",
@@ -919,8 +919,8 @@ export const countriesInfo: ICountries = {
     "capital": "Cayenne",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "GG": {
     "name": "Guernsey",
@@ -931,8 +931,8 @@ export const countriesInfo: ICountries = {
     "currency": "GBP",
     "languages": [
       "en",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "GH": {
     "name": "Ghana",
@@ -942,8 +942,8 @@ export const countriesInfo: ICountries = {
     "capital": "Accra",
     "currency": "GHS",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "GI": {
     "name": "Gibraltar",
@@ -953,8 +953,8 @@ export const countriesInfo: ICountries = {
     "capital": "Gibraltar",
     "currency": "GIP",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "GL": {
     "name": "Greenland",
@@ -964,8 +964,8 @@ export const countriesInfo: ICountries = {
     "capital": "Nuuk",
     "currency": "DKK",
     "languages": [
-      "kl"
-    ]
+      "kl",
+    ],
   },
   "GM": {
     "name": "Gambia",
@@ -975,8 +975,8 @@ export const countriesInfo: ICountries = {
     "capital": "Banjul",
     "currency": "GMD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "GN": {
     "name": "Guinea",
@@ -987,8 +987,8 @@ export const countriesInfo: ICountries = {
     "currency": "GNF",
     "languages": [
       "fr",
-      "ff"
-    ]
+      "ff",
+    ],
   },
   "GP": {
     "name": "Guadeloupe",
@@ -998,8 +998,8 @@ export const countriesInfo: ICountries = {
     "capital": "Basse-Terre",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "GQ": {
     "name": "Equatorial Guinea",
@@ -1010,8 +1010,8 @@ export const countriesInfo: ICountries = {
     "currency": "XAF",
     "languages": [
       "es",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "GR": {
     "name": "Greece",
@@ -1021,8 +1021,8 @@ export const countriesInfo: ICountries = {
     "capital": "Athens",
     "currency": "EUR",
     "languages": [
-      "el"
-    ]
+      "el",
+    ],
   },
   "GS": {
     "name": "South Georgia and the South Sandwich Islands",
@@ -1032,8 +1032,8 @@ export const countriesInfo: ICountries = {
     "capital": "King Edward Point",
     "currency": "GBP",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "GT": {
     "name": "Guatemala",
@@ -1043,8 +1043,8 @@ export const countriesInfo: ICountries = {
     "capital": "Guatemala City",
     "currency": "GTQ",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "GU": {
     "name": "Guam",
@@ -1056,8 +1056,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "en",
       "ch",
-      "es"
-    ]
+      "es",
+    ],
   },
   "GW": {
     "name": "Guinea-Bissau",
@@ -1067,8 +1067,8 @@ export const countriesInfo: ICountries = {
     "capital": "Bissau",
     "currency": "XOF",
     "languages": [
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "GY": {
     "name": "Guyana",
@@ -1078,8 +1078,8 @@ export const countriesInfo: ICountries = {
     "capital": "Georgetown",
     "currency": "GYD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "HK": {
     "name": "Hong Kong",
@@ -1090,8 +1090,8 @@ export const countriesInfo: ICountries = {
     "currency": "HKD",
     "languages": [
       "zh",
-      "en"
-    ]
+      "en",
+    ],
   },
   "HM": {
     "name": "Heard Island and McDonald Islands",
@@ -1101,8 +1101,8 @@ export const countriesInfo: ICountries = {
     "capital": "",
     "currency": "AUD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "HN": {
     "name": "Honduras",
@@ -1112,8 +1112,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tegucigalpa",
     "currency": "HNL",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "HR": {
     "name": "Croatia",
@@ -1123,8 +1123,8 @@ export const countriesInfo: ICountries = {
     "capital": "Zagreb",
     "currency": "HRK",
     "languages": [
-      "hr"
-    ]
+      "hr",
+    ],
   },
   "HT": {
     "name": "Haiti",
@@ -1135,8 +1135,8 @@ export const countriesInfo: ICountries = {
     "currency": "HTG,USD",
     "languages": [
       "fr",
-      "ht"
-    ]
+      "ht",
+    ],
   },
   "HU": {
     "name": "Hungary",
@@ -1146,8 +1146,8 @@ export const countriesInfo: ICountries = {
     "capital": "Budapest",
     "currency": "HUF",
     "languages": [
-      "hu"
-    ]
+      "hu",
+    ],
   },
   "ID": {
     "name": "Indonesia",
@@ -1157,8 +1157,8 @@ export const countriesInfo: ICountries = {
     "capital": "Jakarta",
     "currency": "IDR",
     "languages": [
-      "id"
-    ]
+      "id",
+    ],
   },
   "IE": {
     "name": "Ireland",
@@ -1169,8 +1169,8 @@ export const countriesInfo: ICountries = {
     "currency": "EUR",
     "languages": [
       "ga",
-      "en"
-    ]
+      "en",
+    ],
   },
   "IL": {
     "name": "Israel",
@@ -1181,8 +1181,8 @@ export const countriesInfo: ICountries = {
     "currency": "ILS",
     "languages": [
       "he",
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "IM": {
     "name": "Isle of Man",
@@ -1193,8 +1193,8 @@ export const countriesInfo: ICountries = {
     "currency": "GBP",
     "languages": [
       "en",
-      "gv"
-    ]
+      "gv",
+    ],
   },
   "IN": {
     "name": "India",
@@ -1205,8 +1205,8 @@ export const countriesInfo: ICountries = {
     "currency": "INR",
     "languages": [
       "hi",
-      "en"
-    ]
+      "en",
+    ],
   },
   "IO": {
     "name": "British Indian Ocean Territory",
@@ -1216,8 +1216,8 @@ export const countriesInfo: ICountries = {
     "capital": "Diego Garcia",
     "currency": "USD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "IQ": {
     "name": "Iraq",
@@ -1228,8 +1228,8 @@ export const countriesInfo: ICountries = {
     "currency": "IQD",
     "languages": [
       "ar",
-      "ku"
-    ]
+      "ku",
+    ],
   },
   "IR": {
     "name": "Iran",
@@ -1239,8 +1239,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tehran",
     "currency": "IRR",
     "languages": [
-      "fa"
-    ]
+      "fa",
+    ],
   },
   "IS": {
     "name": "Iceland",
@@ -1250,8 +1250,8 @@ export const countriesInfo: ICountries = {
     "capital": "Reykjavik",
     "currency": "ISK",
     "languages": [
-      "is"
-    ]
+      "is",
+    ],
   },
   "IT": {
     "name": "Italy",
@@ -1261,8 +1261,8 @@ export const countriesInfo: ICountries = {
     "capital": "Rome",
     "currency": "EUR",
     "languages": [
-      "it"
-    ]
+      "it",
+    ],
   },
   "JE": {
     "name": "Jersey",
@@ -1273,8 +1273,8 @@ export const countriesInfo: ICountries = {
     "currency": "GBP",
     "languages": [
       "en",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "JM": {
     "name": "Jamaica",
@@ -1284,8 +1284,8 @@ export const countriesInfo: ICountries = {
     "capital": "Kingston",
     "currency": "JMD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "JO": {
     "name": "Jordan",
@@ -1295,8 +1295,8 @@ export const countriesInfo: ICountries = {
     "capital": "Amman",
     "currency": "JOD",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "JP": {
     "name": "Japan",
@@ -1306,8 +1306,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tokyo",
     "currency": "JPY",
     "languages": [
-      "ja"
-    ]
+      "ja",
+    ],
   },
   "KE": {
     "name": "Kenya",
@@ -1318,8 +1318,8 @@ export const countriesInfo: ICountries = {
     "currency": "KES",
     "languages": [
       "en",
-      "sw"
-    ]
+      "sw",
+    ],
   },
   "KG": {
     "name": "Kyrgyzstan",
@@ -1330,8 +1330,8 @@ export const countriesInfo: ICountries = {
     "currency": "KGS",
     "languages": [
       "ky",
-      "ru"
-    ]
+      "ru",
+    ],
   },
   "KH": {
     "name": "Cambodia",
@@ -1341,8 +1341,8 @@ export const countriesInfo: ICountries = {
     "capital": "Phnom Penh",
     "currency": "KHR",
     "languages": [
-      "km"
-    ]
+      "km",
+    ],
   },
   "KI": {
     "name": "Kiribati",
@@ -1352,8 +1352,8 @@ export const countriesInfo: ICountries = {
     "capital": "South Tarawa",
     "currency": "AUD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "KM": {
     "name": "Comoros",
@@ -1364,8 +1364,8 @@ export const countriesInfo: ICountries = {
     "currency": "KMF",
     "languages": [
       "ar",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "KN": {
     "name": "Saint Kitts and Nevis",
@@ -1375,8 +1375,8 @@ export const countriesInfo: ICountries = {
     "capital": "Basseterre",
     "currency": "XCD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "KP": {
     "name": "North Korea",
@@ -1386,8 +1386,8 @@ export const countriesInfo: ICountries = {
     "capital": "Pyongyang",
     "currency": "KPW",
     "languages": [
-      "ko"
-    ]
+      "ko",
+    ],
   },
   "KR": {
     "name": "South Korea",
@@ -1397,8 +1397,8 @@ export const countriesInfo: ICountries = {
     "capital": "Seoul",
     "currency": "KRW",
     "languages": [
-      "ko"
-    ]
+      "ko",
+    ],
   },
   "KW": {
     "name": "Kuwait",
@@ -1408,8 +1408,8 @@ export const countriesInfo: ICountries = {
     "capital": "Kuwait City",
     "currency": "KWD",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "KY": {
     "name": "Cayman Islands",
@@ -1419,8 +1419,8 @@ export const countriesInfo: ICountries = {
     "capital": "George Town",
     "currency": "KYD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "KZ": {
     "name": "Kazakhstan",
@@ -1431,8 +1431,8 @@ export const countriesInfo: ICountries = {
     "currency": "KZT",
     "languages": [
       "kk",
-      "ru"
-    ]
+      "ru",
+    ],
   },
   "LA": {
     "name": "Laos",
@@ -1442,8 +1442,8 @@ export const countriesInfo: ICountries = {
     "capital": "Vientiane",
     "currency": "LAK",
     "languages": [
-      "lo"
-    ]
+      "lo",
+    ],
   },
   "LB": {
     "name": "Lebanon",
@@ -1454,8 +1454,8 @@ export const countriesInfo: ICountries = {
     "currency": "LBP",
     "languages": [
       "ar",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "LC": {
     "name": "Saint Lucia",
@@ -1465,8 +1465,8 @@ export const countriesInfo: ICountries = {
     "capital": "Castries",
     "currency": "XCD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "LI": {
     "name": "Liechtenstein",
@@ -1476,8 +1476,8 @@ export const countriesInfo: ICountries = {
     "capital": "Vaduz",
     "currency": "CHF",
     "languages": [
-      "de"
-    ]
+      "de",
+    ],
   },
   "LK": {
     "name": "Sri Lanka",
@@ -1488,8 +1488,8 @@ export const countriesInfo: ICountries = {
     "currency": "LKR",
     "languages": [
       "si",
-      "ta"
-    ]
+      "ta",
+    ],
   },
   "LR": {
     "name": "Liberia",
@@ -1499,8 +1499,8 @@ export const countriesInfo: ICountries = {
     "capital": "Monrovia",
     "currency": "LRD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "LS": {
     "name": "Lesotho",
@@ -1511,8 +1511,8 @@ export const countriesInfo: ICountries = {
     "currency": "LSL,ZAR",
     "languages": [
       "en",
-      "st"
-    ]
+      "st",
+    ],
   },
   "LT": {
     "name": "Lithuania",
@@ -1522,8 +1522,8 @@ export const countriesInfo: ICountries = {
     "capital": "Vilnius",
     "currency": "LTL",
     "languages": [
-      "lt"
-    ]
+      "lt",
+    ],
   },
   "LU": {
     "name": "Luxembourg",
@@ -1535,8 +1535,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "fr",
       "de",
-      "lb"
-    ]
+      "lb",
+    ],
   },
   "LV": {
     "name": "Latvia",
@@ -1546,8 +1546,8 @@ export const countriesInfo: ICountries = {
     "capital": "Riga",
     "currency": "EUR",
     "languages": [
-      "lv"
-    ]
+      "lv",
+    ],
   },
   "LY": {
     "name": "Libya",
@@ -1557,8 +1557,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tripoli",
     "currency": "LYD",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "MA": {
     "name": "Morocco",
@@ -1568,8 +1568,8 @@ export const countriesInfo: ICountries = {
     "capital": "Rabat",
     "currency": "MAD",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "MC": {
     "name": "Monaco",
@@ -1579,8 +1579,8 @@ export const countriesInfo: ICountries = {
     "capital": "Monaco",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "MD": {
     "name": "Moldova",
@@ -1590,8 +1590,8 @@ export const countriesInfo: ICountries = {
     "capital": "Chișinău",
     "currency": "MDL",
     "languages": [
-      "ro"
-    ]
+      "ro",
+    ],
   },
   "ME": {
     "name": "Montenegro",
@@ -1604,8 +1604,8 @@ export const countriesInfo: ICountries = {
       "sr",
       "bs",
       "sq",
-      "hr"
-    ]
+      "hr",
+    ],
   },
   "MF": {
     "name": "Saint Martin",
@@ -1617,8 +1617,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "en",
       "fr",
-      "nl"
-    ]
+      "nl",
+    ],
   },
   "MG": {
     "name": "Madagascar",
@@ -1629,8 +1629,8 @@ export const countriesInfo: ICountries = {
     "currency": "MGA",
     "languages": [
       "fr",
-      "mg"
-    ]
+      "mg",
+    ],
   },
   "MH": {
     "name": "Marshall Islands",
@@ -1641,8 +1641,8 @@ export const countriesInfo: ICountries = {
     "currency": "USD",
     "languages": [
       "en",
-      "mh"
-    ]
+      "mh",
+    ],
   },
   "MK": {
     "name": "Macedonia",
@@ -1652,8 +1652,8 @@ export const countriesInfo: ICountries = {
     "capital": "Skopje",
     "currency": "MKD",
     "languages": [
-      "mk"
-    ]
+      "mk",
+    ],
   },
   "ML": {
     "name": "Mali",
@@ -1663,8 +1663,8 @@ export const countriesInfo: ICountries = {
     "capital": "Bamako",
     "currency": "XOF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "MM": {
     "name": "Myanmar [Burma]",
@@ -1674,8 +1674,8 @@ export const countriesInfo: ICountries = {
     "capital": "Naypyidaw",
     "currency": "MMK",
     "languages": [
-      "my"
-    ]
+      "my",
+    ],
   },
   "MN": {
     "name": "Mongolia",
@@ -1685,8 +1685,8 @@ export const countriesInfo: ICountries = {
     "capital": "Ulan Bator",
     "currency": "MNT",
     "languages": [
-      "mn"
-    ]
+      "mn",
+    ],
   },
   "MO": {
     "name": "Macao",
@@ -1697,8 +1697,8 @@ export const countriesInfo: ICountries = {
     "currency": "MOP",
     "languages": [
       "zh",
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "MP": {
     "name": "Northern Mariana Islands",
@@ -1709,8 +1709,8 @@ export const countriesInfo: ICountries = {
     "currency": "USD",
     "languages": [
       "en",
-      "ch"
-    ]
+      "ch",
+    ],
   },
   "MQ": {
     "name": "Martinique",
@@ -1720,8 +1720,8 @@ export const countriesInfo: ICountries = {
     "capital": "Fort-de-France",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "MR": {
     "name": "Mauritania",
@@ -1731,8 +1731,8 @@ export const countriesInfo: ICountries = {
     "capital": "Nouakchott",
     "currency": "MRO",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "MS": {
     "name": "Montserrat",
@@ -1742,8 +1742,8 @@ export const countriesInfo: ICountries = {
     "capital": "Plymouth",
     "currency": "XCD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "MT": {
     "name": "Malta",
@@ -1754,8 +1754,8 @@ export const countriesInfo: ICountries = {
     "currency": "EUR",
     "languages": [
       "mt",
-      "en"
-    ]
+      "en",
+    ],
   },
   "MU": {
     "name": "Mauritius",
@@ -1765,8 +1765,8 @@ export const countriesInfo: ICountries = {
     "capital": "Port Louis",
     "currency": "MUR",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "MV": {
     "name": "Maldives",
@@ -1776,8 +1776,8 @@ export const countriesInfo: ICountries = {
     "capital": "Malé",
     "currency": "MVR",
     "languages": [
-      "dv"
-    ]
+      "dv",
+    ],
   },
   "MW": {
     "name": "Malawi",
@@ -1788,8 +1788,8 @@ export const countriesInfo: ICountries = {
     "currency": "MWK",
     "languages": [
       "en",
-      "ny"
-    ]
+      "ny",
+    ],
   },
   "MX": {
     "name": "Mexico",
@@ -1799,8 +1799,8 @@ export const countriesInfo: ICountries = {
     "capital": "Mexico City",
     "currency": "MXN",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "MY": {
     "name": "Malaysia",
@@ -1809,7 +1809,7 @@ export const countriesInfo: ICountries = {
     "continent": "AS",
     "capital": "Kuala Lumpur",
     "currency": "MYR",
-    "languages": []
+    "languages": [],
   },
   "MZ": {
     "name": "Mozambique",
@@ -1819,8 +1819,8 @@ export const countriesInfo: ICountries = {
     "capital": "Maputo",
     "currency": "MZN",
     "languages": [
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "NA": {
     "name": "Namibia",
@@ -1831,8 +1831,8 @@ export const countriesInfo: ICountries = {
     "currency": "NAD,ZAR",
     "languages": [
       "en",
-      "af"
-    ]
+      "af",
+    ],
   },
   "NC": {
     "name": "New Caledonia",
@@ -1842,8 +1842,8 @@ export const countriesInfo: ICountries = {
     "capital": "Nouméa",
     "currency": "XPF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "NE": {
     "name": "Niger",
@@ -1853,8 +1853,8 @@ export const countriesInfo: ICountries = {
     "capital": "Niamey",
     "currency": "XOF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "NF": {
     "name": "Norfolk Island",
@@ -1864,8 +1864,8 @@ export const countriesInfo: ICountries = {
     "capital": "Kingston",
     "currency": "AUD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "NG": {
     "name": "Nigeria",
@@ -1875,8 +1875,8 @@ export const countriesInfo: ICountries = {
     "capital": "Abuja",
     "currency": "NGN",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "NI": {
     "name": "Nicaragua",
@@ -1886,8 +1886,8 @@ export const countriesInfo: ICountries = {
     "capital": "Managua",
     "currency": "NIO",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "NL": {
     "name": "Netherlands",
@@ -1897,8 +1897,8 @@ export const countriesInfo: ICountries = {
     "capital": "Amsterdam",
     "currency": "EUR",
     "languages": [
-      "nl"
-    ]
+      "nl",
+    ],
   },
   "NO": {
     "name": "Norway",
@@ -1910,8 +1910,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "no",
       "nb",
-      "nn"
-    ]
+      "nn",
+    ],
   },
   "NP": {
     "name": "Nepal",
@@ -1921,8 +1921,8 @@ export const countriesInfo: ICountries = {
     "capital": "Kathmandu",
     "currency": "NPR",
     "languages": [
-      "ne"
-    ]
+      "ne",
+    ],
   },
   "NR": {
     "name": "Nauru",
@@ -1933,8 +1933,8 @@ export const countriesInfo: ICountries = {
     "currency": "AUD",
     "languages": [
       "en",
-      "na"
-    ]
+      "na",
+    ],
   },
   "NU": {
     "name": "Niue",
@@ -1944,8 +1944,8 @@ export const countriesInfo: ICountries = {
     "capital": "Alofi",
     "currency": "NZD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "NZ": {
     "name": "New Zealand",
@@ -1956,8 +1956,8 @@ export const countriesInfo: ICountries = {
     "currency": "NZD",
     "languages": [
       "en",
-      "mi"
-    ]
+      "mi",
+    ],
   },
   "OM": {
     "name": "Oman",
@@ -1967,8 +1967,8 @@ export const countriesInfo: ICountries = {
     "capital": "Muscat",
     "currency": "OMR",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "PA": {
     "name": "Panama",
@@ -1978,8 +1978,8 @@ export const countriesInfo: ICountries = {
     "capital": "Panama City",
     "currency": "PAB,USD",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "PE": {
     "name": "Peru",
@@ -1989,8 +1989,8 @@ export const countriesInfo: ICountries = {
     "capital": "Lima",
     "currency": "PEN",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "PF": {
     "name": "French Polynesia",
@@ -2000,8 +2000,8 @@ export const countriesInfo: ICountries = {
     "capital": "Papeetē",
     "currency": "XPF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "PG": {
     "name": "Papua New Guinea",
@@ -2011,8 +2011,8 @@ export const countriesInfo: ICountries = {
     "capital": "Port Moresby",
     "currency": "PGK",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "PH": {
     "name": "Philippines",
@@ -2022,8 +2022,8 @@ export const countriesInfo: ICountries = {
     "capital": "Manila",
     "currency": "PHP",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "PK": {
     "name": "Pakistan",
@@ -2034,8 +2034,8 @@ export const countriesInfo: ICountries = {
     "currency": "PKR",
     "languages": [
       "en",
-      "ur"
-    ]
+      "ur",
+    ],
   },
   "PL": {
     "name": "Poland",
@@ -2045,8 +2045,8 @@ export const countriesInfo: ICountries = {
     "capital": "Warsaw",
     "currency": "PLN",
     "languages": [
-      "pl"
-    ]
+      "pl",
+    ],
   },
   "PM": {
     "name": "Saint Pierre and Miquelon",
@@ -2056,8 +2056,8 @@ export const countriesInfo: ICountries = {
     "capital": "Saint-Pierre",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "PN": {
     "name": "Pitcairn Islands",
@@ -2067,8 +2067,8 @@ export const countriesInfo: ICountries = {
     "capital": "Adamstown",
     "currency": "NZD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "PR": {
     "name": "Puerto Rico",
@@ -2079,8 +2079,8 @@ export const countriesInfo: ICountries = {
     "currency": "USD",
     "languages": [
       "es",
-      "en"
-    ]
+      "en",
+    ],
   },
   "PS": {
     "name": "Palestine",
@@ -2090,8 +2090,8 @@ export const countriesInfo: ICountries = {
     "capital": "Ramallah",
     "currency": "ILS",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "PT": {
     "name": "Portugal",
@@ -2101,8 +2101,8 @@ export const countriesInfo: ICountries = {
     "capital": "Lisbon",
     "currency": "EUR",
     "languages": [
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "PW": {
     "name": "Palau",
@@ -2112,8 +2112,8 @@ export const countriesInfo: ICountries = {
     "capital": "Ngerulmud",
     "currency": "USD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "PY": {
     "name": "Paraguay",
@@ -2124,8 +2124,8 @@ export const countriesInfo: ICountries = {
     "currency": "PYG",
     "languages": [
       "es",
-      "gn"
-    ]
+      "gn",
+    ],
   },
   "QA": {
     "name": "Qatar",
@@ -2135,8 +2135,8 @@ export const countriesInfo: ICountries = {
     "capital": "Doha",
     "currency": "QAR",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "RE": {
     "name": "Réunion",
@@ -2146,8 +2146,8 @@ export const countriesInfo: ICountries = {
     "capital": "Saint-Denis",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "RO": {
     "name": "Romania",
@@ -2157,8 +2157,8 @@ export const countriesInfo: ICountries = {
     "capital": "Bucharest",
     "currency": "RON",
     "languages": [
-      "ro"
-    ]
+      "ro",
+    ],
   },
   "RS": {
     "name": "Serbia",
@@ -2168,8 +2168,8 @@ export const countriesInfo: ICountries = {
     "capital": "Belgrade",
     "currency": "RSD",
     "languages": [
-      "sr"
-    ]
+      "sr",
+    ],
   },
   "RU": {
     "name": "Russia",
@@ -2179,8 +2179,8 @@ export const countriesInfo: ICountries = {
     "capital": "Moscow",
     "currency": "RUB",
     "languages": [
-      "ru"
-    ]
+      "ru",
+    ],
   },
   "RW": {
     "name": "Rwanda",
@@ -2192,8 +2192,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "rw",
       "en",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "SA": {
     "name": "Saudi Arabia",
@@ -2203,8 +2203,8 @@ export const countriesInfo: ICountries = {
     "capital": "Riyadh",
     "currency": "SAR",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "SB": {
     "name": "Solomon Islands",
@@ -2214,8 +2214,8 @@ export const countriesInfo: ICountries = {
     "capital": "Honiara",
     "currency": "SBD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "SC": {
     "name": "Seychelles",
@@ -2226,8 +2226,8 @@ export const countriesInfo: ICountries = {
     "currency": "SCR",
     "languages": [
       "fr",
-      "en"
-    ]
+      "en",
+    ],
   },
   "SD": {
     "name": "Sudan",
@@ -2238,8 +2238,8 @@ export const countriesInfo: ICountries = {
     "currency": "SDG",
     "languages": [
       "ar",
-      "en"
-    ]
+      "en",
+    ],
   },
   "SE": {
     "name": "Sweden",
@@ -2249,8 +2249,8 @@ export const countriesInfo: ICountries = {
     "capital": "Stockholm",
     "currency": "SEK",
     "languages": [
-      "sv"
-    ]
+      "sv",
+    ],
   },
   "SG": {
     "name": "Singapore",
@@ -2263,8 +2263,8 @@ export const countriesInfo: ICountries = {
       "en",
       "ms",
       "ta",
-      "zh"
-    ]
+      "zh",
+    ],
   },
   "SH": {
     "name": "Saint Helena",
@@ -2274,8 +2274,8 @@ export const countriesInfo: ICountries = {
     "capital": "Jamestown",
     "currency": "SHP",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "SI": {
     "name": "Slovenia",
@@ -2285,8 +2285,8 @@ export const countriesInfo: ICountries = {
     "capital": "Ljubljana",
     "currency": "EUR",
     "languages": [
-      "sl"
-    ]
+      "sl",
+    ],
   },
   "SJ": {
     "name": "Svalbard and Jan Mayen",
@@ -2296,8 +2296,8 @@ export const countriesInfo: ICountries = {
     "capital": "Longyearbyen",
     "currency": "NOK",
     "languages": [
-      "no"
-    ]
+      "no",
+    ],
   },
   "SK": {
     "name": "Slovakia",
@@ -2307,8 +2307,8 @@ export const countriesInfo: ICountries = {
     "capital": "Bratislava",
     "currency": "EUR",
     "languages": [
-      "sk"
-    ]
+      "sk",
+    ],
   },
   "SL": {
     "name": "Sierra Leone",
@@ -2318,8 +2318,8 @@ export const countriesInfo: ICountries = {
     "capital": "Freetown",
     "currency": "SLL",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "SM": {
     "name": "San Marino",
@@ -2329,8 +2329,8 @@ export const countriesInfo: ICountries = {
     "capital": "City of San Marino",
     "currency": "EUR",
     "languages": [
-      "it"
-    ]
+      "it",
+    ],
   },
   "SN": {
     "name": "Senegal",
@@ -2340,8 +2340,8 @@ export const countriesInfo: ICountries = {
     "capital": "Dakar",
     "currency": "XOF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "SO": {
     "name": "Somalia",
@@ -2352,8 +2352,8 @@ export const countriesInfo: ICountries = {
     "currency": "SOS",
     "languages": [
       "so",
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "SR": {
     "name": "Suriname",
@@ -2363,8 +2363,8 @@ export const countriesInfo: ICountries = {
     "capital": "Paramaribo",
     "currency": "SRD",
     "languages": [
-      "nl"
-    ]
+      "nl",
+    ],
   },
   "SS": {
     "name": "South Sudan",
@@ -2374,8 +2374,8 @@ export const countriesInfo: ICountries = {
     "capital": "Juba",
     "currency": "SSP",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "ST": {
     "name": "São Tomé and Príncipe",
@@ -2385,8 +2385,8 @@ export const countriesInfo: ICountries = {
     "capital": "São Tomé",
     "currency": "STD",
     "languages": [
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "SV": {
     "name": "El Salvador",
@@ -2396,8 +2396,8 @@ export const countriesInfo: ICountries = {
     "capital": "San Salvador",
     "currency": "SVC,USD",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "SX": {
     "name": "Sint Maarten",
@@ -2408,8 +2408,8 @@ export const countriesInfo: ICountries = {
     "currency": "ANG",
     "languages": [
       "nl",
-      "en"
-    ]
+      "en",
+    ],
   },
   "SY": {
     "name": "Syria",
@@ -2419,8 +2419,8 @@ export const countriesInfo: ICountries = {
     "capital": "Damascus",
     "currency": "SYP",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "SZ": {
     "name": "Swaziland",
@@ -2431,8 +2431,8 @@ export const countriesInfo: ICountries = {
     "currency": "SZL",
     "languages": [
       "en",
-      "ss"
-    ]
+      "ss",
+    ],
   },
   "TC": {
     "name": "Turks and Caicos Islands",
@@ -2442,8 +2442,8 @@ export const countriesInfo: ICountries = {
     "capital": "Cockburn Town",
     "currency": "USD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "TD": {
     "name": "Chad",
@@ -2454,8 +2454,8 @@ export const countriesInfo: ICountries = {
     "currency": "XAF",
     "languages": [
       "fr",
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "TF": {
     "name": "French Southern Territories",
@@ -2465,8 +2465,8 @@ export const countriesInfo: ICountries = {
     "capital": "Port-aux-Français",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "TG": {
     "name": "Togo",
@@ -2476,8 +2476,8 @@ export const countriesInfo: ICountries = {
     "capital": "Lomé",
     "currency": "XOF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "TH": {
     "name": "Thailand",
@@ -2487,8 +2487,8 @@ export const countriesInfo: ICountries = {
     "capital": "Bangkok",
     "currency": "THB",
     "languages": [
-      "th"
-    ]
+      "th",
+    ],
   },
   "TJ": {
     "name": "Tajikistan",
@@ -2499,8 +2499,8 @@ export const countriesInfo: ICountries = {
     "currency": "TJS",
     "languages": [
       "tg",
-      "ru"
-    ]
+      "ru",
+    ],
   },
   "TK": {
     "name": "Tokelau",
@@ -2510,8 +2510,8 @@ export const countriesInfo: ICountries = {
     "capital": "Fakaofo",
     "currency": "NZD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "TL": {
     "name": "East Timor",
@@ -2521,8 +2521,8 @@ export const countriesInfo: ICountries = {
     "capital": "Dili",
     "currency": "USD",
     "languages": [
-      "pt"
-    ]
+      "pt",
+    ],
   },
   "TM": {
     "name": "Turkmenistan",
@@ -2533,8 +2533,8 @@ export const countriesInfo: ICountries = {
     "currency": "TMT",
     "languages": [
       "tk",
-      "ru"
-    ]
+      "ru",
+    ],
   },
   "TN": {
     "name": "Tunisia",
@@ -2544,8 +2544,8 @@ export const countriesInfo: ICountries = {
     "capital": "Tunis",
     "currency": "TND",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "TO": {
     "name": "Tonga",
@@ -2556,8 +2556,8 @@ export const countriesInfo: ICountries = {
     "currency": "TOP",
     "languages": [
       "en",
-      "to"
-    ]
+      "to",
+    ],
   },
   "TR": {
     "name": "Turkey",
@@ -2567,8 +2567,8 @@ export const countriesInfo: ICountries = {
     "capital": "Ankara",
     "currency": "TRY",
     "languages": [
-      "tr"
-    ]
+      "tr",
+    ],
   },
   "TT": {
     "name": "Trinidad and Tobago",
@@ -2578,8 +2578,8 @@ export const countriesInfo: ICountries = {
     "capital": "Port of Spain",
     "currency": "TTD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "TV": {
     "name": "Tuvalu",
@@ -2589,8 +2589,8 @@ export const countriesInfo: ICountries = {
     "capital": "Funafuti",
     "currency": "AUD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "TW": {
     "name": "Taiwan",
@@ -2600,8 +2600,8 @@ export const countriesInfo: ICountries = {
     "capital": "Taipei",
     "currency": "TWD",
     "languages": [
-      "zh"
-    ]
+      "zh",
+    ],
   },
   "TZ": {
     "name": "Tanzania",
@@ -2612,8 +2612,8 @@ export const countriesInfo: ICountries = {
     "currency": "TZS",
     "languages": [
       "sw",
-      "en"
-    ]
+      "en",
+    ],
   },
   "UA": {
     "name": "Ukraine",
@@ -2623,8 +2623,8 @@ export const countriesInfo: ICountries = {
     "capital": "Kyiv",
     "currency": "UAH",
     "languages": [
-      "uk"
-    ]
+      "uk",
+    ],
   },
   "UG": {
     "name": "Uganda",
@@ -2635,8 +2635,8 @@ export const countriesInfo: ICountries = {
     "currency": "UGX",
     "languages": [
       "en",
-      "sw"
-    ]
+      "sw",
+    ],
   },
   "UM": {
     "name": "U.S. Minor Outlying Islands",
@@ -2646,8 +2646,8 @@ export const countriesInfo: ICountries = {
     "capital": "",
     "currency": "USD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "US": {
     "name": "United States",
@@ -2657,8 +2657,8 @@ export const countriesInfo: ICountries = {
     "capital": "Washington D.C.",
     "currency": "USD,USN,USS",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "UY": {
     "name": "Uruguay",
@@ -2668,8 +2668,8 @@ export const countriesInfo: ICountries = {
     "capital": "Montevideo",
     "currency": "UYI,UYU",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "UZ": {
     "name": "Uzbekistan",
@@ -2680,8 +2680,8 @@ export const countriesInfo: ICountries = {
     "currency": "UZS",
     "languages": [
       "uz",
-      "ru"
-    ]
+      "ru",
+    ],
   },
   "VA": {
     "name": "Vatican City",
@@ -2692,8 +2692,8 @@ export const countriesInfo: ICountries = {
     "currency": "EUR",
     "languages": [
       "it",
-      "la"
-    ]
+      "la",
+    ],
   },
   "VC": {
     "name": "Saint Vincent and the Grenadines",
@@ -2703,8 +2703,8 @@ export const countriesInfo: ICountries = {
     "capital": "Kingstown",
     "currency": "XCD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "VE": {
     "name": "Venezuela",
@@ -2714,8 +2714,8 @@ export const countriesInfo: ICountries = {
     "capital": "Caracas",
     "currency": "VEF",
     "languages": [
-      "es"
-    ]
+      "es",
+    ],
   },
   "VG": {
     "name": "British Virgin Islands",
@@ -2725,8 +2725,8 @@ export const countriesInfo: ICountries = {
     "capital": "Road Town",
     "currency": "USD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "VI": {
     "name": "U.S. Virgin Islands",
@@ -2736,8 +2736,8 @@ export const countriesInfo: ICountries = {
     "capital": "Charlotte Amalie",
     "currency": "USD",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "VN": {
     "name": "Vietnam",
@@ -2747,8 +2747,8 @@ export const countriesInfo: ICountries = {
     "capital": "Hanoi",
     "currency": "VND",
     "languages": [
-      "vi"
-    ]
+      "vi",
+    ],
   },
   "VU": {
     "name": "Vanuatu",
@@ -2760,8 +2760,8 @@ export const countriesInfo: ICountries = {
     "languages": [
       "bi",
       "en",
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "WF": {
     "name": "Wallis and Futuna",
@@ -2771,8 +2771,8 @@ export const countriesInfo: ICountries = {
     "capital": "Mata-Utu",
     "currency": "XPF",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "WS": {
     "name": "Samoa",
@@ -2783,8 +2783,8 @@ export const countriesInfo: ICountries = {
     "currency": "WST",
     "languages": [
       "sm",
-      "en"
-    ]
+      "en",
+    ],
   },
   "XK": {
     "name": "Kosovo",
@@ -2795,8 +2795,8 @@ export const countriesInfo: ICountries = {
     "currency": "EUR",
     "languages": [
       "sq",
-      "sr"
-    ]
+      "sr",
+    ],
   },
   "YE": {
     "name": "Yemen",
@@ -2806,8 +2806,8 @@ export const countriesInfo: ICountries = {
     "capital": "Sana'a",
     "currency": "YER",
     "languages": [
-      "ar"
-    ]
+      "ar",
+    ],
   },
   "YT": {
     "name": "Mayotte",
@@ -2817,8 +2817,8 @@ export const countriesInfo: ICountries = {
     "capital": "Mamoudzou",
     "currency": "EUR",
     "languages": [
-      "fr"
-    ]
+      "fr",
+    ],
   },
   "ZA": {
     "name": "South Africa",
@@ -2837,8 +2837,8 @@ export const countriesInfo: ICountries = {
       "ts",
       "ve",
       "xh",
-      "zu"
-    ]
+      "zu",
+    ],
   },
   "ZM": {
     "name": "Zambia",
@@ -2848,8 +2848,8 @@ export const countriesInfo: ICountries = {
     "capital": "Lusaka",
     "currency": "ZMK",
     "languages": [
-      "en"
-    ]
+      "en",
+    ],
   },
   "ZW": {
     "name": "Zimbabwe",
@@ -2861,7 +2861,7 @@ export const countriesInfo: ICountries = {
     "languages": [
       "en",
       "sn",
-      "nd"
-    ]
-  }
+      "nd",
+    ],
+  },
 };

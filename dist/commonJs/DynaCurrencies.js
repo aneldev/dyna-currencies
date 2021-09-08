@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DynaCurrencies = void 0;
 var currenciesInfo_1 = require("./currenciesInfo");
 var countriesInfo_1 = require("./countriesInfo");
 var DynaCurrencies = /** @class */ (function () {
@@ -102,21 +103,21 @@ var DynaCurrencies = /** @class */ (function () {
         get: function () {
             return Object.keys(this._currencyRates).length;
         },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
     Object.defineProperty(DynaCurrencies.prototype, "lastUpdate", {
         get: function () {
             return this._lastUpdate;
         },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
     Object.defineProperty(DynaCurrencies.prototype, "hasRates", {
         get: function () {
             return !!this.count;
         },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
     return DynaCurrencies;
